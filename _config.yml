@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: New Cities
-email: info@lonepine.io
+website: lonepine.io
+#email: info@lonepine.io
 description: >- # this means to ignore newlines until "baseurl:"
-  New Cities: Build Prosperity. A new take on the classic citybuilder.
+  Build Prosperity.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 show_excerpt: true
 url: "https://lonepine.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lone_pine_games
+#twitter_username: lone_pine_games
 #github_username:  jekyll
 
 # Build settings
