@@ -5,8 +5,104 @@
 
 body {
   background: rgb(38,61,47);
-  background: linear-gradient(300deg, rgba(38,61,47,1) 0%,
-    rgba(47,77,59,1) 100%);
+  background: linear-gradient(300deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  //font-family: 'Play', sans-serif;
 }
+
+.site-header, .site-footer {
+  border: none;
+}
+
+.page-content {
+  background: rgb(31,48,37);
+  background: linear-gradient(309deg, rgba(31,48,37,1) 0%, rgba(24,38,30,1) 100%);
+}
+
+a, a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #68a882;
+  text-decoration: none;
+}
+
+.site-title {
+  font-family: 'Play', sans-serif;
+  font-size: 300%;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.site-icon {
+  display: inline-block;
+  width: 1.3em;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: 'Play', sans-serif;
+}
+
+.site-nav .page-link, .site-title, .site-title:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover, .site-title:hover, {
+  color: #68a882;
+  text-decoration: underline;
+}
+
+.footer-col-1 {
+  width: 20%;
+  color: #fff;
+  font-weight: bold;
+  width: inherit;
+}
+
+.footer-col-2 {
+  //padding-left: 15px;
+  width: inherit;
+}
+
+.footer-col-3 {
+  width: inherit;
+  //width: 35%;
+}
+
+figure {
+  position: relative;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+  max-width: 80%;
+  padding:5px;
+  margin: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    display: none;
+  }
+
+  figure {
+    position: unset;
+  }
+
+  figure figcaption {
+    position: unset;
+    max-width: unset;
+    margin: 0px;
+    padding:5px;
+  }
+}
+

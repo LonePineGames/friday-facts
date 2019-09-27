@@ -15,7 +15,7 @@ The game is based around six “heatmaps”. The heatmaps are Pollution, Crime, 
 
 {% include image.html url="/blog/assets/images/value.png" description="The Value heatmap. There are two high-value areas around the city center and a shopping area. The red in the top right is a low value area, since there isn't a school in that neighborhood. The white buildings are schools." %}
 
-As a player, you have two options. You can buy very expensive city services (schools, parks, police stations, etc) to cut through the negative feedback loop. Alternately, you can build a broad, flat, suburban city, with the intention to grow a dense city center later in the game. I call these two approaches “San Francisco vs Los Angeles”. I consider this to be a kind of morality system, creating the opportunity for different playstyles and different cities.
+As a player, you have two options. You can buy very expensive city services (schools, parks, police stations, etc) to cut through the negative feedback loop. Alternately, you can build a broad, flat, suburban city, with the intention to grow a dense city center later in the game. I call these two approaches “San Francisco vs Los Angeles.” I consider this to be a kind of morality system, creating the opportunity for different playstyles and different cities.
 
 {% include image.html url="/blog/assets/images/abandoned_city_center.png" description="Downtown in a declining city, where several buildings are abandoned." %}
 

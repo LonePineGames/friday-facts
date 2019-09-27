@@ -1,22 +1,19 @@
 <footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
   <div class="wrapper">
-    <h2 class="footer-heading">New Cities</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">New Cities</li>
-        </ul>
+        {{ site.title | escape }}
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <li class="p-name"><a href="/">lonepine.io</a></li>
-        </ul>
+        <p>{{- site.description | escape -}}</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Build Prosperity.</p>
+        <a href="/">lonepine.io</a>
       </div>
     </div>
 
