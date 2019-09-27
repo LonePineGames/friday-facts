@@ -9,15 +9,21 @@ Hi, Lone Pine here. I’m going to start posting weekly updates on the project t
 
 If you're new here, I’m working on a city builder called New Cities. Over the last year, I’ve developed a basic city builder with a traffic simulation and customizable 3D rendered buildings. In the past few months I’ve fully implemented “The Prosperity System” which will define the game. It’s a dynamic economic model where neighborhoods thrive or fail based on access to work, shopping, parks, and schools.
 
+{% comment %}
 {% include image.html url="/blog/assets/images/prosperity.png" description="The Prosperity heatmap. There are two prosperous areas, one around the city center and the other around a small shopping area." %}
+{% endcomment %}
 
 The game is based around six “heatmaps”. The heatmaps are Pollution, Crime, Education, Prosperity, Value, and Density. Essentially, Education (plus a good road system) creates Prosperity, Prosperity (among other things) creates Value, and Value (plus Prosperity) creates Density. However, Density creates Crime and Pollution, which have a negative impact on Prosperity and Value, creating a [negative feedback loop]. Negative feedback loops are important to me, since they counteract the explosive nature of positive feedback loops which turn many simulation games into sandboxes.
 
+{% comment %}
 {% include image.html url="/blog/assets/images/value.png" description="The Value heatmap. There are two high-value areas around the city center and a shopping area. The red in the top right is a low value area, since there isn't a school in that neighborhood. The white buildings are schools." %}
+{% endcomment %}
 
 As a player, you have two options. You can buy very expensive city services (schools, parks, police stations, etc) to cut through the negative feedback loop. Alternately, you can build a broad, flat, suburban city, with the intention to grow a dense city center later in the game. I call these two approaches “San Francisco vs Los Angeles.” I consider this to be a kind of morality system, creating the opportunity for different playstyles and different cities.
 
+{% comment %}
 {% include image.html url="/blog/assets/images/abandoned_city_center.png" description="Downtown in a declining city, where several buildings are abandoned." %}
+{% endcomment %}
 
 In this game, a city doesn’t just linearly grow. Instead the community behaves like a living orgasm, emerging out of chaos and always at risk of dying. You’ll have to shepherd your city through randomized recessions in the national economy as well as the consequences of any blunders you make. It will be a more random game than previous city builders, with a more vulnerable budget maintaining a fundamentally unstable economic system.
 
