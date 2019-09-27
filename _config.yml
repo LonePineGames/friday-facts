@@ -31,8 +31,8 @@ url: "https://lonepine.io" # the base hostname & protocol for your site, e.g. ht
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 google_analytics: UA-147711440-1
 
