@@ -7,6 +7,8 @@ date:   2019-09-26 15:00:00 -0700
 
 Hi, Lone Pine here. I’m going to start posting weekly updates on the project to keep you guys informed of what’s going on, what features are being worked on, and our progress on the road to release.
 
+{% include image.html url="/blog/assets/images/city_overview.png" description="A small town, just shy of the 20,000 people needed to officially be a city." %}
+
 If you're new here, I’m working on a city builder called New Cities. Over the last year, I’ve developed a basic city builder with a traffic simulation and customizable 3D rendered buildings. In the past few months I’ve fully implemented “The Prosperity System” which will define the game. It’s a dynamic economic model where neighborhoods thrive or fail based on access to work, shopping, parks, and schools.
 
 {% include image.html url="/blog/assets/images/prosperity.png" description="The Prosperity heatmap. There are two prosperous areas, one around the city center and the other around a small shopping area." %}
