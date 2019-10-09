@@ -76,6 +76,8 @@ h1 {
 
 figure {
   position: relative;
+  width: fit-content;
+  margin: 5px auto 5px auto;
 }
 
 figure figcaption {
@@ -88,6 +90,12 @@ figure figcaption {
   margin: 5px;
 }
 
+figure.caption-below figcaption {
+  position: initial;
+  margin: 0px;
+  text-align: right;
+  max-width: none;
+}
 
 @media screen and (max-width: 600px) {
   .site-nav {
