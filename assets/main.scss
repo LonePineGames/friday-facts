@@ -8,6 +8,7 @@ body {
   background: linear-gradient(300deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  text-align: justify;
   //font-family: 'Play', sans-serif;
 }
 
@@ -76,7 +77,8 @@ h1 {
 
 figure {
   position: relative;
-  width: fit-content;
+  width: max-content;
+  max-width: 100%;
   margin: 5px auto 5px auto;
 }
 
@@ -86,8 +88,8 @@ figure figcaption {
   right: 0px;
   background-color: rgba(0, 0, 0, 0.85);
   max-width: 80%;
-  padding:5px;
-  margin: 5px;
+  padding: 5px;
+  margin: 10px 5px;
 }
 
 figure.caption-below figcaption {
@@ -95,6 +97,10 @@ figure.caption-below figcaption {
   margin: 0px;
   text-align: right;
   max-width: none;
+}
+
+video {
+  max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,0 +1,7 @@
+<figure class="video {{ include.class }}">
+  <video autoplay loop poster="/blog/assets/images/{{ include.image }}">
+    <source src="/blog/assets/video/{{include.video}}.mp4">
+    <source src="/blog/assets/video/{{include.video}}.webm" type="video/webm">
+  </video>
+  <figcaption>{{ include.description }}</figcaption>
+</figure>
