@@ -6,11 +6,11 @@ date:   2019-10-11 00:00:00 -0700
 ---
 
 {% include video.html video="interchange" image="interchange.png"
-  description="A full stack interchange" %}
+  description="A stack interchange" %}
 
 Cities are really about transportation. People choose where to live based on estimated travel time to work, school, or amenities. "Research<sup>[&#91;1&#93;][1]</sup> has shown that ease of access to transport has a stronger influence on whether someone will earn more than their parents did, than the level of crime in their area or whether they grew up in a two-parent household," according to [the Youtuber Wendover].
 
-New Cities features many kinds of roads, from tree lined boulevards to high speed expressways to traffic-corralling one way streets, from stop signs to stop lights to full-stack interchanges. But currently the only kinds of transportation in New Cities are private automobiles and freight trucks. There are no buses, bikes, pedestrians, trains, airplanes, boats, or even carpools -- yet. After the crowdfunding champaign, there will be a contributors-only poll to determine which features to implement next, and most of the options will be related to transportation -- so don't worry, your inner train geek will be satisfied. In order to lay the groundwork for these many modes of transit, I needed to refactor and improve "the graph."
+New Cities features many kinds of roads, from tree lined boulevards to high speed expressways to traffic-corralling one way streets, from stop signs to stop lights to stack interchanges. But currently the only kinds of transportation in New Cities are private automobiles and freight trucks. There are no buses, bikes, pedestrians, trains, airplanes, boats, or even carpools -- yet. After the crowdfunding champaign, there will be a contributors-only poll to determine which features to implement next, and most of the options will be related to transportation -- so don't worry, your inner train geek will be satisfied. In order to lay the groundwork for these many modes of transit, I needed to refactor and improve "the graph."
 
 {% include image.html class="caption-below"
   link="https://xkcd.com/2036/"
@@ -20,6 +20,9 @@ New Cities features many kinds of roads, from tree lined boulevards to high spee
 The graph is the internal representation of the road system. In the language of [graph theory], the intersections and junctions are "nodes" and the road segments connecting them are "edges". Each edge connects two nodes, and each node to can connect up to six edges. Currently, there are only roads and expressways, but in the future this system might represent train tracks, bus routes, airways, and sea lanes. Underneath the graph is the lane system, which tells vehicles where to go. Lanes are also used for routing. The lane system is managed automatically by the game based on modifications of the graph. Sidewalks, bike lanes and HOV lanes would be implemented as special kinds of lanes on roads and expressways.
 
 When you place an edge (road), the game detects any place where that edge crosses another. It then "splits" both edges by placing a node (intersection) between them. There might be many splits when placing one segment of road. But it gets even more complicated. The roads are split in order to conform to the elevation of terrain. There is a planner mode, allowing you to plan roads before paying for them, and this means that splits must keep track of which roads are completed or just planned.
+
+{% include video.html video="planner" image="planner.png"
+  description="Planner Mode in action" %}
 
 Once the splits are all resolved, intersections must be geometrically arranged, illegal states must be detected (underwater, too steep, etc), and costs must be computed. Terrain must be leveled, buildings must also be leveled, buildings and lots must be reassigned, new zone-able lots must be allocated, and the lane system must be updated. Finally, everything has to be rendered to screen.
 
