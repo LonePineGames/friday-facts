@@ -21,7 +21,7 @@ As a player, you have two options. You can buy very expensive city services (sch
 
 {% include image.html url="/blog/assets/images/abandoned_city_center.png" description="Downtown in a declining city, where several buildings are abandoned." %}
 
-In this game, a city doesn’t just linearly grow. Instead the community behaves like a living orgasm, emerging out of chaos and always at risk of dying. You’ll have to shepherd your city through randomized recessions in the national economy as well as the consequences of any blunders you make. It will be a more random game than previous city builders, with a more vulnerable budget maintaining a fundamentally unstable economic system.
+In this game, a city doesn’t just linearly grow. Instead the community behaves like a living organism, emerging out of chaos and always at risk of dying. You’ll have to shepherd your city through randomized recessions in the national economy as well as the consequences of any blunders you make. It will be a more random game than previous city builders, with a more vulnerable budget maintaining a fundamentally unstable economic system.
 
 We’ll be starting crowdfunding in the next two months. One of the tier rewards will be to participate in a closed alpha, which we hope to start before the end of the year.
 
