@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "New Cities Friday Facts #4: Scale"
+date:   2019-10-18 00:00:00 -0700
+#categories: new-cities friday-facts transportation
+---
+
+This week I made several improvements to increase the performance and practical scale of the game.
+
+A major limitation is practical terrain size. The terrain is divided into chunks, and most of the cities you've seen in videos and screenshots so far have been 25x25 chunks. Previously, it would take a long time to render the terrain, largely because each tree was individually meshed. Terrain trees are now [instanced]. I also improved the system to randomly place the trees, so that they fill the space better, making the forests look denser. The game also now generates high- and low-poly meshes for the terrain for different zoom levels.
+
+Before, my machine (which is high-end) would struggle at 50x50 and was unplayable at 100x100. Now I have 50x50 as the default and 125x125 is completely playable. I tested at 200x200 and reached RAM/VRAM limitations; therefore going beyond 150x150 would require some sort of just-in-time re-rendering of terrain so it wouldn't have to be stored in memory at all times, and probably a third tier of mesh resolution.
+
+{% include image.html class="caption-top"
+  url="/blog/assets/images/map_size_comparison.png"
+  description="Map sizes compared -- 25x25, 50x50, 100x100, and 125x125" %}
+
+Each chunk is 25 tiles, and each tile is 25 meters, so a chunk is 625 meters on its side. This means that a 100x100 map is 62.5 kilometers, or 38.8 miles, on it's side. Therefore, a 100x100 map could cover Los Angeles from Santa Monica to Anaheim and Pasadena to Huntington Beach. The San Francisco Bay Area from Berkeley to San Jose and east to Pleasanton would fit quite comfortably in 125x125. 62.5km is just enough to fit the M25 highway which rings London, and all five boroughs of New York would fit in that space too.
+
+Two other improvements this week: heatmap perf and save perf. The heatmap performance is dependent on map size. I lowered the resolution of the heatmaps by a factor of 5, meaning a 25x improvement in heatmap performance. As for saving, previously the autosave on large maps caused a slight stutter (100+ms long frame). I introduced a memory buffer so that saving could be done asynchronously. I also added compression to the save file format, reducing file sizes by a factor of 5.
+
+To be clear, we're only talking about terrain size here, and in its current form the game couldn't represent the traffic and activity in a city the size of London or LA. There are three kinds of activities which take a lot of processing: building construction/upgrading, vehicle simulation, and routing.
+
+The game is constantly trying to add new buildings everywhere there is a zoned lot. It randomly chooses a lot and one of the building designs and tests to see if the design would be a good fit. It tests if there is reasonably flat terrain, no roads in the way, and that the heatmap has the right density and land value for the design. If there are colliding buildings, it tallies the value of those buildings and compares it to the proposed replacement. Improving the performance is really about choosing the right frequency to try to adding a new building, as well as making more intelligent guesses for what building goes where. The goal of the game is to make a skyscraper spawn, and therefore this trial-and-error building-spawning process is a very important game mechanic. It will be iterated upon going into the closed alpha.
+
+{% include image.html class="caption-top"
+  url="/blog/assets/images/ten-thousand-cars.png"
+  description="Ten Thousand Vehicles" %}
+
+Vehicle simulation will be improved in a future update. The current sim can scale to over ten thousand cars, but then struggles at the highest game speed. I expect at a 10x improvement. Additionally, there are certain bugs which cause cars to jam up and stop moving. I've experimented with different ways to prevent jams and improve vehicle sim performance. One approach is multithreading and reduced simulation resolution with [tweening] for on-screen cars. Vehicle simulation must be deterministic, and mixing multithreading with strict determinism can be messy. Nonetheless, I'm confident I can make it work. There will be a Friday Facts on this topic in the near future.
+
+As for routing, the solution that has worked so far is caching, and I expect more caching will get us a long way, if not all the way to San Jose. Currently routing is done using [A\*]. One issue is that the cache is not saved to disk, which causes poor performance immediately after loading a large city, but that will be rectified soon. Once I've exhausted the benefits of caching, I'll have to look at more sophisticated routing and graph-processing algorithms. I'm curious how services like Google Maps are optimized, and I assume they do a great deal of pre-processing, caching and aggregation. Inevitably I will do the same.
+
+These improvements mean two things: for those with high-end computers, you'll be able to play larger maps and bigger cities without any FPS drop. For those with lower-end or older computers, this might grant you the ability to play the game at all, with an FPS that's acceptable. My dream is a game that can support region scale cities, and I will make that dream a reality -- promise!
+
+If you're excited about the project, join the [discord] or [subreddit].
+
+[A\*]: https://en.wikipedia.org/wiki/A*_search_algorithm
+[tweening]: https://en.wikipedia.org/wiki/Inbetweening
+[instanced]: https://www.khronos.org/opengl/wiki/Vertex_Rendering#Instancing
+[subreddit]: https://www.reddit.com/r/New_Cities
+[discord]: https://discord.gg/udgeB2E
+

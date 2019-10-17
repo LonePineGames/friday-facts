@@ -1,5 +1,6 @@
 <figure class="image {{ include.class }}">
-  <a href="{{ include.link | default include.url }}">
+  <!--<a href="{{ include.link | default include.url }}">-->
+  <a href="{{ include.link | default: include.url }}">
     <img src="{{ include.url }}" alt="{{ include.description }}">
     <figcaption>{{ include.description }}</figcaption>
   </a>
