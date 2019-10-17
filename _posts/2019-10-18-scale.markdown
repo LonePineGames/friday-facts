@@ -23,17 +23,17 @@ To be clear, we're only talking about terrain size here, and in its current form
 
 {% include image.html
   url="/blog/assets/images/simi-valley.png"
-  description="Displaying many buildings at once." %}
+  description="Displaying many buildings at once. Instanced rendering dramatically improves performance." %}
 
 The game is constantly trying to add new buildings everywhere there is a zoned lot. It randomly chooses a lot and one of the building designs and tests to see if the design would be a good fit. It tests if there is reasonably flat terrain, no roads in the way, and that the heatmap has the right density and land value for the design. If there are colliding buildings, it tallies the value of those buildings and compares it to the proposed replacement. Improving the performance is really about choosing the right frequency to try adding a new building, as well as making more intelligent guesses for what building goes where. The goal of the game is to make a skyscraper spawn, and therefore this trial-and-error building-spawning process is a very important game mechanic. It will be iterated upon going into the closed alpha.
 
-Vehicle simulation will be improved in a future update. The current sim can scale to over ten thousand cars, but then struggles at the highest game speed. I expect to produce a 10x improvement in this system soon. Additionally, there are certain bugs which cause cars to jam up and stop moving. I've experimented with different ways to prevent jams and improve vehicle sim performance. One approach is multithreading and reduced simulation resolution with [tweening] for on-screen cars. Vehicle simulation must be deterministic, and mixing multithreading with strict determinism can be messy. Nonetheless, I'm confident I can make it work. There will be a Friday Facts on this topic in the near future.
+Vehicle simulation will be improved in a future update. The current sim can scale to ten of thousands cars, but struggles at the highest game speed. I expect to produce a 5x improvement in this system soon. Additionally, there are certain bugs which cause cars to jam up and stop moving. I've experimented with different ways to prevent jams while improving vehicle sim performance. One possible approach is multithreading and reduced simulation resolution with [tweening] for on-screen cars. Vehicle simulation must be deterministic, and mixing multithreading with strict determinism can be messy. Nonetheless, I'm confident I can make it work. There will be a Friday Facts on this topic in the near future.
 
-{% include image.html class="caption-top"
-  url="/blog/assets/images/ten-thousand-cars.png"
-  description="Ten Thousand Vehicles" %}
+{% include image.html class="caption-bottom"
+  url="/blog/assets/images/thousands-of-vehicles.png"
+  description="Testing the simulation with thousands of vehicles." %}
 
-As for routing, the solution that has worked so far is caching, and I expect more caching will get us a long way, if not all the way to San Jose. Currently routing is done using [A\*]. One issue is that the cache is not saved to disk, which causes poor performance immediately after loading a large city, but that will be rectified soon. Once I've exhausted the benefits of caching, I'll have to look at more sophisticated routing and graph-processing algorithms. I'm curious how services like Google Maps are optimized, and I assume they do a great deal of pre-processing, caching and aggregation. Inevitably I will do the same.
+As for routing, the solution that has worked so far is caching, and I expect more caching will get us a long way, if not all the way to San Jose. Currently routing is done using [A\*]. One issue is that the cache is not saved to disk, which causes poor performance immediately after loading a large city, but that will be rectified soon. Once I've exhausted the benefits of caching, I'll have to look at more sophisticated routing and graph-processing algorithms. I'm curious how services like Google Maps are optimized. I assume they do a great deal of pre-processing, caching and aggregation. Inevitably I will do the same.
 
 These improvements mean two things: for those with high-end computers, you'll be able to play larger maps and bigger cities without any FPS drop. For those with lower-end or older computers, this might grant you the ability to play the game at all, with an FPS that's acceptable. My dream is a game that can support region scale cities, and I will make that dream a reality -- promise!
 
