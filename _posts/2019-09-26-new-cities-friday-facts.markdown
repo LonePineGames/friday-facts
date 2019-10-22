@@ -2,6 +2,7 @@
 layout: post
 title:  "New Cities Friday Facts #1"
 date:   2019-09-26 15:00:00 -0700
+author: Lone Pine
 #categories: new-cities friday-facts crowdfunding
 ---
 

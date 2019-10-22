@@ -2,6 +2,7 @@
 layout: post
 title:  "New Cities Friday Facts #3: Roads to Prosperity"
 date:   2019-10-11 00:00:00 -0700
+author: Lone Pine
 #categories: new-cities friday-facts transportation
 ---
 

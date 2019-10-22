@@ -6,6 +6,8 @@ author: Mitch
 #categories: new-cities mitch-report aesthetics
 ---
 
+*This post was contributed by our new community manager, Mitch.*
+
 Hello, and welcome to the first edition of The New Cities Report: the part of the show where we lay bare the development process, offer our thoughts on game design, and open the floor to you, our most invaluable and esteemed community.
 
 Today we’ll be talking about our favorite city builders, and just what it is about them that resonates with us. So kick back, relax, and join us on this little journey, won’t you?
@@ -26,8 +28,8 @@ And that brings us back to the question poised at the beginning: what is it abou
 
 As the late, great Bob Ross says about painting: “You have unlimited freedom on this canvas.” And I believe that’s true of certain games as well—you’re given a canvas, and the developer provides all the tools and colors you need to paint a beautiful picture. A portrait of life. And perhaps there’s no portrait so grand or [sonderous] as the city, the hub of humanity since long ages past. When we abandoned nomadic existence in favor of banding together into communities, cities soon followed, laying the foundation for both scientific endeavors and cultural growth. Humankind condensed like raindrops in a cloud into cities across the globe, each person adding color or vibrance to the glow of these beacons of civilization.
 
-{% include image.html class="caption-bottom"
-  url="/blog/assets/images/sonder.gif"
+{% include video.html video="sonder" image="sonder.png" class="caption-below"
+  prefix="/blog/assets/video/"
   description="There’s nothing quite so wistful or sonderous as looking out over a city at night" %}
 
 Cities represent a microcosm of the human experience, a vertical slice-of-life in which we live, work, and play. They can be as good or as bad as the people who run them—so when given the opportunity, we jump at the chance to prove ourselves to be good stewards of our canvases. We relish the opportunity to manage budgets, please our citizens with strong educational systems, construct beautification projects like parks and plazas, and watch the digital people under our care grow and thrive. There’s a nurturing soul within us all, and there are no better places to practice those instincts than simulation games where you’re asked to create instead of destroy. To build up instead of tear down. And every moment we spend racking our brains for solutions to traffic congestion or increasing revenue without raising taxes (unless it’s necessary, of course) encourages such outside-the-box problem solving in our own lives. It provides a brain exercise that you can’t help but feel enriched by.
