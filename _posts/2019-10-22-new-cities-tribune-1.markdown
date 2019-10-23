@@ -8,7 +8,7 @@ author: supersoup
 
 *This post was contributed by our new community manager, Mitch (supersoup).*
 
-Hello, and welcome to the first edition of The New Cities Report: the part of the show where we lay bare the development process, offer our thoughts on game design, and open the floor to you, our most invaluable and esteemed community.
+Hello, and welcome to the first edition of The New Cities Tribune: the periodical where we lay bare the development process, offer our thoughts on game design, and open the floor to you, our most invaluable and esteemed community.
 
 Today we’ll be talking about our favorite city builders, and just what it is about them that resonates with us. So kick back, relax, and join us on this little journey, won’t you?
 
