@@ -44,8 +44,8 @@ Mitch
 
 [cognitive flow]: https://www.gamasutra.com/view/feature/166972/cognitive_flow_the_psychology_of_.php
 [sonderous]: https://www.dictionaryofobscuresorrows.com/post/23536922667/sonder
-[subreddit]: https://www.reddit.com/r/New_Cities
-[discord]: https://discord.gg/udgeB2E
-[twitter]: https://twitter.com/lone_pine_games
+[Reddit]: https://www.reddit.com/r/New_Cities
+[Discord]: https://discord.gg/udgeB2E
+[Twitter]: https://twitter.com/lone_pine_games
 
 
