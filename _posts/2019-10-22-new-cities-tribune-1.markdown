@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "New Cities Report #1"
+title:  "New Cities Tribune #1"
 date:   2019-10-22 00:00:00 -0700
-author: Mitch
+author: supersoup
 #categories: new-cities mitch-report aesthetics
 ---
 
-*This post was contributed by our new community manager, Mitch.*
+*This post was contributed by our new community manager, Mitch (supersoup).*
 
 Hello, and welcome to the first edition of The New Cities Report: the part of the show where we lay bare the development process, offer our thoughts on game design, and open the floor to you, our most invaluable and esteemed community.
 
@@ -26,26 +26,26 @@ Instead of demanding that we destroy, city builders invite us to create. To solv
 
 And that brings us back to the question poised at the beginning: what is it about city builders that really resonates with us?
 
-As the late, great Bob Ross says about painting: “You have unlimited freedom on this canvas.” And I believe that’s true of certain games as well—you’re given a canvas, and the developer provides all the tools and colors you need to paint a beautiful picture. A portrait of life. And perhaps there’s no portrait so grand or [sonderous] as the city, the hub of humanity since long ages past. When we abandoned nomadic existence in favor of banding together into communities, cities soon followed, laying the foundation for both scientific endeavors and cultural growth. Humankind condensed like raindrops in a cloud into cities across the globe, each person adding color or vibrance to the glow of these beacons of civilization.
+As the late, great Bob Ross says about painting: “You have unlimited freedom on this canvas.” And I believe that’s true of certain games as well—you’re given a canvas, and the developer provides all the tools and colors you need to paint a beautiful picture. A portrait of life. And perhaps there’s no portrait so grand or [sonderous] as the city, the hub of humanity since ages past. When we abandoned nomadic existence in favor of banding together into communities, cities soon followed, laying the foundation for both scientific endeavors and cultural growth. Humankind condensed like raindrops in a cloud into cities across the globe, each person adding color or vibrance to the glow of these beacons of civilization.
 
 {% include video.html video="sonder" image="sonder.png" class="caption-below"
   prefix="/blog/assets/video/"
   description="There’s nothing quite so wistful or sonderous as looking out over a city at night" %}
 
-Cities represent a microcosm of the human experience, a vertical slice-of-life in which we live, work, and play. They can be as good or as bad as the people who run them—so when given the opportunity, we jump at the chance to prove ourselves to be good stewards of our canvases. We relish the opportunity to manage budgets, please our citizens with strong educational systems, construct beautification projects like parks and plazas, and watch the digital people under our care grow and thrive. There’s a nurturing soul within us all, and there are no better places to practice those instincts than simulation games where you’re asked to create instead of destroy. To build up instead of tear down. And every moment we spend racking our brains for solutions to traffic congestion or increasing revenue without raising taxes (unless it’s necessary, of course) encourages such outside-the-box problem solving in our own lives. It provides a brain exercise that you can’t help but feel enriched by.
+Cities represent a microcosm of the human experience, a vertical slice-of-life in which we live, work, and play. They can be as good or as bad as the people who run them—so when given the opportunity, we jump at the chance to prove ourselves to be good stewards of our canvases. We relish the opportunity to manage budgets, please our citizens with strong educational systems, construct beautification projects like parks and plazas, and watch the digital people under our care grow and thrive. There’s a nurturing soul within us all, and there are no better places to practice those instincts than simulation games where you’re asked to create instead of destroy. To build up instead of tear down. And every moment we spend racking our brains for solutions to traffic congestion or finding ways to increase revenue without raising taxes encourages such outside-the-box problem solving in our own lives. It provides a brain exercise that you can’t help but feel enriched by.
 
-In a world that seems saturated with hate and vitriol, it’s important to pull back once in a while, recharge your batteries, and paint on your canvas—using whatever medium you find most satisfying.
+It’s important to pull back from the world once in a while, recharge your batteries, and paint on your canvas—using whatever medium you find most satisfying.
 
-So, now it’s time we heard from you. What’s your favorite city builder, and why? What about it ignites that spark of satisfaction and joy within you? While we can’t promise you that every suggestion will make it into the game, rest assured that we are listening. We want to make sure you have the paints and the canvas you need to paint something truly beautiful.
+So, now it’s time we heard from you—via [Discord], [Reddit], or [Twitter], pick your favorite platform and sound off. What’s your favorite city builder, and why? What about it ignites that spark of satisfaction and joy within you? What would you suggest we could do to bring that spark to life in New Cities? While we can’t promise you that every suggestion will make it into the game, rest assured that we are listening. We want to make sure you have the paints and the canvas you need to paint something truly beautiful.
 
 Until next time, happy building.
 
 Mitch
 
-If you're excited about the project, join the [discord] or [subreddit].
-
 [cognitive flow]: https://www.gamasutra.com/view/feature/166972/cognitive_flow_the_psychology_of_.php
 [sonderous]: https://www.dictionaryofobscuresorrows.com/post/23536922667/sonder
 [subreddit]: https://www.reddit.com/r/New_Cities
 [discord]: https://discord.gg/udgeB2E
+[twitter]: https://twitter.com/lone_pine_games
+
 
