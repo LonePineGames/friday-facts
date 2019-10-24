@@ -3,7 +3,7 @@ layout: post
 title:  "New Cities Friday Facts #4: Scale"
 date:   2019-10-18 00:00:00 -0700
 author: Lone Pine
-#categories: new-cities friday-facts transportation
+#categories: new-cities friday-facts performance
 ---
 
 This week I made several improvements to increase the performance and scale of the game.
