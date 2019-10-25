@@ -6,7 +6,8 @@ author: Lone Pine
 #categories: new-cities friday-facts transportation
 ---
 
-{% include video.html video="interchange" image="interchange.png"
+{% include video.html class="caption-top"
+  video="interchange" image="interchange.png"
   prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
   description="A stack interchange" %}
 
@@ -33,7 +34,8 @@ When you place an edge (road), the game detects any place where that edge crosse
 
 But it gets even more complicated. The roads are split in order to conform to the elevation of terrain. Then there is Planner Mode, which allows you to plan roads before paying for them, and this means that splits must keep track of whether roads are completed or just planned.
 
-{% include video.html video="splits" image="splits.png"
+{% include video.html class="caption-top"
+  video="splits" image="splits.png"
   prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
   description="How splits work" %}
 
@@ -45,7 +47,8 @@ The graph was the very first thing I implemented, and therefore was most in need
 
 Secondly, it was possible to accidentally create duplicate, overlapping road segments (two roads connecting the same two intersections). This not only looked ugly but caused further glitches. Now when you overlap one road with another, it upgrades or modifies that section of road instead. In addition, building-by-overlap corrects the direction of one-way roads and expressways, meaning you can change the direction of a long stretch of one-way road using just two clicks -- a really powerful tool.
 
-{% include video.html video="one-way-switch" image="one-way-switch.png"
+{% include video.html class="caption-top"
+  video="one-way-switch" image="one-way-switch.png"
   prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
   description="Reversing the direction of a one-way road while upgrading it to four lanes and installing traffic lights -- all with just two clicks." %}
 
