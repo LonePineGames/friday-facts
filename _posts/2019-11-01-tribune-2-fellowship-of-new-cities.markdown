@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Cities Tribune #2: The Fellowship of New Cities"
-date:   2019-10-30 00:00:00 -0700
+date:   2019-11-01 00:00:00 -0700
 author: supersoup
 #categories: new-cities tribune crowdfunding
 ---
@@ -16,7 +16,7 @@ New Cities was officially announced in April of 2019, with hopes that we would h
 
 {% include video.html class="caption-top"
   video="heatmap-dance" image="heatmap-dance.png"
-  prefix="/blog/assets/video/"
+  prefix="https://github.com/LonePineGames/friday-facts/releases/download/0.6.0/"
   description="Watching a small town become educated." %}
 
 Now that we’ve retraced our steps, let’s talk about the future.
