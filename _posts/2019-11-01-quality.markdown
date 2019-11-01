@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "New Cities Friday Facts #6: Quality"
+date:   2019-11-01 00:00:00 -0700
+author: Lone Pine
+#categories: new-cities friday-facts quality
+---
+
+A shorter post today. I didn't implement any big features this week. (Okay, I implemented one big feature.) I did some bug fixing, including an issue that prevented players with older machines from launching the game. I added some information explaining the heatmaps better, including showing the effect of coasts and hills on land value from the start of the game. I also fixed the game balance, which was broken by the recent [heatmaps change].
+
+{% include image.html class="caption-bottom"
+  url="/blog/assets/images/terrain-land-value.png"
+  description="Land near water or on hills is more valuable." %}
+
+There are three key aspects of New Cities gameplay balance: money, economics, and heatmaps. Money includes loans, taxes, and costs; economics includes the conditions that cause citizens and businesses to enter or leave the city; and heatmaps—well, they’re a bit tricky to balance. I wanted Mitch to be able to play with the balance and give me feedback, so I moved the heatmap tuning constants into a Lua file.
+
+Up until now, the game has been 100% C++ (and GLSL). Setting numerical constants in C++ code is inflexible. I was thinking of putting the constants in JSON or YAML, but someone on Discord mentioned modding, so I decided to check out Lua. It wasn't hard to integrate the language, and by the time I had a system to load constants from Lua, I was already thinking about systems that would enable modding. Though we can assign no definitive dates, modding is now a planned feature.
+
+{% include image.html class="caption-below"
+  url="/blog/assets/images/lua-code.png"
+  description="A sample of the Lua code" %}
+
+There are many features that would benefit from being configured in Lua. Amenities (parks, schools, stadiums, hospitals) are unlocked with achievements, but there is no way currently to add a custom achievement or unlock a custom amenity. I'd like to move the achievements to Lua, and configuring amenities could live there too. A few game-balance related functions could possibly be exported to Lua, including computing the taxable value of a building, determining when a person should move out of the city (or move in), and determining when a business should close. I'm not sure if I want to move these things to Lua due to possible performance issues, but we'll see.
+
+Join the [discord], [subreddit], and [twitter]! We love to chat with fans about features and design decisions.
+
+[heatmaps change]: https://lonepine.io/blog/2019/10/18/scale.html
+[subreddit]: https://www.reddit.com/r/New_Cities
+[discord]: https://discord.gg/udgeB2E
+[twitter]: https://twitter.com/lone_pine_games
+
+
