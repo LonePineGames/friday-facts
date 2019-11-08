@@ -13,6 +13,7 @@ body {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
+  text-shadow: 0.2em 0.2em 0.4em black;
   //font-family: 'Play', sans-serif;
 }
 
@@ -24,7 +25,7 @@ body {
 
 .hero {
   position: relative;
-  box-shadow: rgba(0,0,0,0.5) 0.1vw 0.1vw 0.2vw;
+  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
 
   img {
     width: 100%;
@@ -111,7 +112,7 @@ body {
   border: none;
   background: rgb(38,61,47);
   background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
-  box-shadow: rgba(0,0,0,0.5) 0.2vw 0.2vw 0.4vw;
+  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
   padding: 1vw;
   text-align: center;
 
@@ -226,7 +227,7 @@ a:hover {
 
 .post-list li:hover {
   background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
-  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
+  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
   * {
     color: white;
   }
@@ -269,10 +270,15 @@ h1 {
 
 figure {
   position: relative;
-  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
+  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
   width: max-content;
   max-width: 100%;
+  min-width: 20vw;
   margin: 40px auto 40px auto;
+
+  img {
+    width: 100%;
+  }
 }
 
 figure figcaption {
@@ -320,7 +326,7 @@ video {
   font-weight: bolder;
   letter-spacing: 0.1em;
 
-  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
+  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
   background: rgb(38,61,47);
   background: linear-gradient(280deg,
     rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
@@ -361,12 +367,16 @@ video {
   .post-content p {
     font-size: 1.2vw;
   }
+
+  .post-list {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .sidebar {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 8vw auto;
     width: 80vw;
     font-size: 2vw;
     float: unset;
@@ -398,18 +408,19 @@ video {
   }
 
   .post-header {
+    max-width: unset;
 
     h1 {
-      font-size: 4vw;
+      font-size: 8vw;
     }
 
     p {
-      font-size: 2vw;
+      font-size: 4vw;
     }
   }
 
   .post-content p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: justify;
     max-width: unset;
     margin-right: auto;
@@ -432,6 +443,5 @@ video {
     font-size: 8vw;
     font-weight: bolder;
   }
-
 }
 
