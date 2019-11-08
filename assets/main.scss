@@ -49,6 +49,7 @@ body {
   hr {
     display: block;
     border: 0;
+    border-color: white !important;
     border-top: 1vw solid white;
     z-index: 3;
     box-shadow: black 0.0em 0.0em 1.0em;
@@ -118,7 +119,6 @@ body {
   min-height: unset;
 
   .wrapper {
-    width: 30vw;
     margin-left: 15.5vw;
   }
 
@@ -213,6 +213,7 @@ a:hover {
     hr {
       display: block;
       border: 0;
+      border-color: white !important;
       border-top: 0.25vw solid white;
       box-shadow: black 0.15em 0.15em 0.2em 0em;
     }
@@ -346,6 +347,7 @@ video {
   hr {
     display: block;
     border: 0;
+    border-color: white !important;
     border-top: 0.25vw solid white;
     margin: 0.5vw 0;
     background-color: white;
