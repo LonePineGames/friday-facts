@@ -4,6 +4,8 @@ title:  "New Cities Friday Facts #6: Quality"
 date:   2019-11-01 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts quality
+redirect_from:
+  - /blog/2019/11/01/quality.html
 
 image: /assets/images/terrain-land-value.png
 description: Adding more configurability to the game

@@ -4,6 +4,8 @@ title:  "New Cities Friday Facts #4: Scale"
 date:   2019-10-18 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts performance
+redirect_from:
+  - /blog/2019/10/18/scale.html
 
 image: /assets/images/map_size_comparison.png
 description: Working on performance

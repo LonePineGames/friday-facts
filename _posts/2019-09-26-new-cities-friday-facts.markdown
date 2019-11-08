@@ -5,6 +5,8 @@ date:   2019-09-26 15:00:00 -0700
 author: Lone Pine
 image: /assets/images/city_overview.png
 description: Talking about heatmaps
+redirect_from:
+  - /blog/2019/09/26/new-cities-friday-facts.html
 #categories: new-cities friday-facts crowdfunding
 ---
 

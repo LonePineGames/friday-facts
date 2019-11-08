@@ -4,6 +4,8 @@ title:  "New Cities Tribune #1"
 date:   2019-10-22 00:00:00 -0700
 author: supersoup
 #categories: new-cities mitch-report aesthetics
+redirect_from:
+  - /blog/2019/10/22/new-cities-tribune-1.html
 
 video: sonder
 video-image: sonder.png

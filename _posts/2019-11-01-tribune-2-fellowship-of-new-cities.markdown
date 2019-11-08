@@ -4,6 +4,8 @@ title:  "New Cities Tribune #2: The Fellowship of New Cities"
 date:   2019-11-01 00:00:00 -0700
 author: supersoup
 #categories: new-cities tribune crowdfunding
+redirect_from:
+  - /blog/2019/11/01/tribune-2-fellowship-of-new-cities.html
 
 video: heatmap-dance
 video-image: heatmap-dance.png

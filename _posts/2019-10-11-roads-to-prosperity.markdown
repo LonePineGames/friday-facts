@@ -4,6 +4,8 @@ title:  "New Cities Friday Facts #3: Roads to Prosperity"
 date:   2019-10-11 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts transportation
+redirect_from:
+  - /blog/2019/10/11/roads-to-prosperity.html
 
 video: interchange
 video-image: interchange.png

@@ -6,6 +6,8 @@ author: Lone Pine
 #categories: new-cities friday-facts sound
 
 image: /assets/images/menu.png
+redirect_from:
+  - /blog/2019/10/04/sounds.html
 description: Adding sound, adding immersion
 
 ---

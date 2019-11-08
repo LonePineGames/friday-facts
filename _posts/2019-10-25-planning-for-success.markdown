@@ -4,11 +4,8 @@ title:  "New Cities Friday Facts #5: Planning For Success"
 date:   2019-10-25 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts transportation performance
-
-video: 
-  video="clovers-are-bad" image="clovers-are-bad.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/"
-  description="This is why cloverleaf interchanges are bad #BanTheClover" %}
+redirect_from:
+  - /blog/2019/10/25/planning-for-success.html
 
 video: clover-copy-short
 video-image: clover-copy.png
