@@ -32,7 +32,7 @@ body {
 
   .title {
     position: absolute;
-    top: 3.5vw;
+    top: 1vw;
     left: 0;
     max-width: 80%;
     padding-top: 0%;
@@ -103,6 +103,8 @@ body {
   font-family: 'Play', sans-serif;
   font-size: 4vw;
   font-weight: bolder;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
 }
 
 .site-header, .site-footer {
@@ -115,7 +117,7 @@ body {
 
   .wrapper {
     width: 30vw;
-    margin-left: 20vw;
+    margin-left: 14vw;
   }
 }
 
@@ -159,11 +161,10 @@ a:hover {
 .post-content p {
   font-size: 1.5vw;
   text-align: justify;
-  max-width: 40em;
+  max-width: 30em;
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .post-link {
   text-decoration: none;
@@ -356,6 +357,12 @@ video {
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .post-content p {
+    font-size: 1.2vw;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .sidebar {
     margin-right: auto;
@@ -389,5 +396,42 @@ video {
     margin: 0;
     padding: 1vw;
   }
+
+  .post-header {
+
+    h1 {
+      font-size: 4vw;
+    }
+
+    p {
+      font-size: 2vw;
+    }
+  }
+
+  .post-content p {
+    font-size: 2.5vw;
+    text-align: justify;
+    max-width: unset;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .site-header, .site-footer {
+    border: none;
+    padding: 1vw;
+    text-align: center;
+
+    .wrapper {
+      width: 60vw;
+      margin: 0 auto;
+    }
+  }
+
+  .site-title {
+    font-family: 'Play', sans-serif;
+    font-size: 8vw;
+    font-weight: bolder;
+  }
+
 }
 
