@@ -10,7 +10,7 @@ redirect_from:
 video: loading
 video-image: loading.png
 video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/ncff7v0/
-description: Adding more configurability to the game
+description: Notice anything different?
 
 ---
 
