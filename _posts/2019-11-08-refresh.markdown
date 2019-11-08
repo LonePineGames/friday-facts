@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "New Cities Friday Facts #7: Refresh"
+date:   2019-11-08 00:00:00 -0700
+author: Lone Pine
+#categories: new-cities friday-facts quality website
+redirect_from:
+  - /blog/2019/11/08/refresh.html
+
+video: loading
+video-image: loading.png
+video-prefix: /assets/video/
+#video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/nct3v0/
+description: Adding more configurability to the game
+
+---
+
+Another short post. This week I rebuilt the website. (Maybe you noticed.)
+
+{% include video.html class="caption-top"
+  video="loading" image="loading.png"
+  prefix="/assets/video/"
+  description="The loading sequence. It actually loads faster than this, but I slowed it down for effect." %}
+
+Since we have lots of great images and videos in the blog, I wanted to emphasize that in the new website. I also wanted to collapse the index page (lonepine.io) and the blog list (lonepine.io/blog), since everytime visitors have to make a click to see more content, 80% of them will simply close the tab. I also wanted to better highlight the many ways you can connect with us on social media. There is one known issue: video playback on iOS devices. I'm looking into a fix. For right now, try viewing the website using a different device.
+
+For website layout, I used a somewhat new CSS feature called "vw" (stands for veiwport width) to size and arrange the content. I love the way it scales seemlessly based on viewport size. After I built the site around using vw, I realized that it's functionally the same as the layout system for the game UI. Positioning UI elements absolutely (with some affordance for dynamism), and scaling them to fit in the viewport exactly, is simply the easiest way to do it. Fiddling around with complicated and unpredictable box models is just too much work.
+
+As for the game, I'm continuing the polishing from [last week](/2019/11/01/quality.html). I've fixed many bugs in the blueprints and road building, but there is still work to do, and the performance is still suboptimal. ([You can watch me wrestle with it here.](https://youtu.be/9_3kJESflLk)) I also simplified the algorithm which spawns buildings. This fixed a bug that would cause some land to be left unused, particularly farmland.
+
+{% include image.html class="caption-bottom"
+  url="/assets/images/farmland.png"
+  description="Some farmland this is starting to develop into industry." %}
+
+In the background, we're working on a new trailer, and I just got the first draft today. I'm very pleased with it, and this trailer will be used in the IndieGoGo campaign. To drum up interest, we plan to have one or more streamers play the game for you very soon, so stay tuned!
+
+Join the [discord], [subreddit], and [twitter]! We love to chat with fans about features and design decisions.
+
+[subreddit]: https://www.reddit.com/r/New_Cities
+[discord]: https://discord.gg/udgeB2E
+[twitter]: https://twitter.com/lone_pine_games
+
+

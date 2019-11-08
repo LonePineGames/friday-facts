@@ -40,7 +40,6 @@ While we don’t expect to see any first-person shooters result from New Cities 
 
 {% include video.html class="caption-top"
   video="park-pollution" image="park-pollution.png"
-  prefix="/assets/video/"
   prefix="https://github.com/LonePineGames/friday-facts/releases/download/nct3v0/"
   description="Adding a park to reduce the effects of pollution." %}
 
