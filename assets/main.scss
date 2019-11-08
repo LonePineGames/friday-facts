@@ -280,7 +280,7 @@ figure {
   width: max-content;
   max-width: 100%;
   min-width: 20vw;
-  margin: 40px auto 40px auto;
+  margin: 5vw auto 5vw auto;
 
   img {
     width: 100%;
@@ -411,6 +411,7 @@ video {
     max-width: unset;
     margin: 0;
     padding: 1vw;
+    font-size: 3.5vw;
   }
 
   .post-header {
