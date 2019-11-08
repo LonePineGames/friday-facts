@@ -4,6 +4,10 @@ title:  "New Cities Friday Facts #6: Quality"
 date:   2019-11-01 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts quality
+
+image: /assets/images/terrain-land-value.png
+description: Adding more configurability to the game
+
 ---
 
 A shorter post today. I didn't implement any big features this week. (Okay, I implemented one big feature.) I did some bug fixing, including an issue that prevented players with older machines from launching the game. I added some information explaining the heatmaps better, including showing the effect of coasts and hills on land value from the start of the game. I also fixed the game balance, which was broken by the recent [heatmaps change].
@@ -11,6 +15,8 @@ A shorter post today. I didn't implement any big features this week. (Okay, I im
 {% include image.html class="caption-bottom"
   url="/assets/images/terrain-land-value.png"
   description="Land near water or on hills is more valuable." %}
+
+<!--more-->
 
 There are three key aspects of New Cities gameplay balance: money, economics, and heatmaps. Money includes loans, taxes, and costs; economics includes the conditions that cause citizens and businesses to enter or leave the city; and heatmaps—well, they’re a bit tricky to balance. I wanted Mitch to be able to play with the balance and give me feedback, so I moved the heatmap tuning constants into a Lua file.
 

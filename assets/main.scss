@@ -4,21 +4,125 @@
 @import "minima";
 
 body {
-  background: rgb(38,61,47);
-  background: linear-gradient(300deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+  background: rgb(31,48,37);
+  background: linear-gradient(309deg,
+    rgba(31,48,37,1) 0%, rgba(24,38,30,1) 100%);
+  //background: rgb(38,61,47);
+  //background: linear-gradient(300deg,
+    //rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
   //font-family: 'Play', sans-serif;
 }
 
+.wrapper {
+  margin-left: 0vw;
+  margin-right: 25vw;
+  max-width: unset;
+}
+
+.hero {
+  position: relative;
+  box-shadow: rgba(0,0,0,0.5) 0.1vw 0.1vw 0.2vw;
+
+  img {
+    width: 100%;
+  }
+
+  .title {
+    position: absolute;
+    top: 3.5vw;
+    left: 0;
+    max-width: 80%;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-left: 1%;
+    margin-left: 4%;
+    text-align: right;
+    //background: linear-gradient(225deg, rgba(0,0,0,0.5) 0%,
+      //rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+    z-index: 2;
+  }
+
+  hr {
+    display: block;
+    border: 0;
+    border-top: 1vw solid white;
+    z-index: 3;
+    box-shadow: black 0.0em 0.0em 1.0em;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    //color: #609c78;
+    font-size: 400%;
+    font-size: 12vw;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: 0.0em 0.00em 0.1em black,
+      0.1em 0.05em 0.15em black;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    //color: #609c78;
+    font-size: 200%;
+    font-size: 4vw;
+    font-weight: 900;
+    max-width: 100%;
+    text-align: center;
+    //letter-spacing: 0.1em;
+    text-shadow: 0.0em 0.0em 1.0em black,
+      0.0em 0.0em 0.2em black;
+      //0.15em 0.15em 0.2em black,
+      //0.15em 0.15em 0.4em black;
+  }
+}
+
+.hero::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  background: linear-gradient(315deg,
+    rgba(0,0,0,0.5) 0%,
+    rgba(0,0,0,0.5) 50%,
+    rgba(0,0,0,0) 100%);
+
+  z-index: 1;
+}
+
+.site-title {
+  font-family: 'Play', sans-serif;
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
 .site-header, .site-footer {
   border: none;
+  background: rgb(38,61,47);
+  background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+  box-shadow: rgba(0,0,0,0.5) 0.2vw 0.2vw 0.4vw;
+  padding: 1vw;
+  text-align: center;
+
+  .wrapper {
+    width: 30vw;
+    margin-left: 20vw;
+  }
 }
 
 .page-content {
-  background: rgb(31,48,37);
-  background: linear-gradient(309deg, rgba(31,48,37,1) 0%, rgba(24,38,30,1) 100%);
+  //background: rgb(31,48,37);
+  //background: linear-gradient(309deg,
+    //rgba(31,48,37,1) 0%, rgba(24,38,30,1) 100%);
 }
 
 a, a:visited {
@@ -31,17 +135,104 @@ a:hover {
   text-decoration: none;
 }
 
-.site-title {
-  font-family: 'Play', sans-serif;
-  font-size: 300%;
-  font-weight: bolder;
-  letter-spacing: 2px;
-}
-
 .site-icon {
   display: inline-block;
   width: 1.3em;
-  margin-right: 15px;
+  margin-right: 2vw;
+}
+
+.post-header {
+  text-align: center;
+  max-width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+}
+
+.post-content p {
+  font-size: 1.5vw;
+  text-align: justify;
+  max-width: 40em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.post-link {
+  text-decoration: none;
+}
+
+.post-list-heading {
+  text-align: center;
+  font-size: 200%;
+}
+
+.post-list li {
+  padding: 1vw;
+  margin-bottom: 4em;
+  position: relative;
+
+  figure {
+    margin: 0;
+    position: relative;
+  }
+
+  figure::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .post-headline {
+    position: absolute;
+    text-align: left;
+    text-shadow: 0.15em 0.15em 0.2em black;
+    top: 4vw;
+    left: 3vw;
+    width: 40vw;
+
+    hr {
+      display: block;
+      border: 0;
+      border-top: 0.25vw solid white;
+      box-shadow: black 0.15em 0.15em 0.2em 0em;
+    }
+
+    h3 {
+      font-weight: 900;
+      font-size: 3vw;
+      line-height: 1.2;
+    }
+
+    h4 {
+      margin-top: 1vw;
+      font-weight: 900;
+      font-size: 2vw;
+    }
+  }
+}
+
+.post-list li:hover {
+  background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
+  * {
+    color: white;
+  }
+
+  figure {
+    box-shadow: none;
+  }
 }
 
 h1 {
@@ -77,6 +268,7 @@ h1 {
 
 figure {
   position: relative;
+  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
   width: max-content;
   max-width: 100%;
   margin: 40px auto 40px auto;
@@ -88,13 +280,15 @@ figure figcaption {
   right: 0px;
   background-color: rgba(0, 0, 0, 0.85);
   max-width: 80%;
-  padding: 5px;
-  margin: 5px 5px;
+  padding: 0.5vw;
+  margin: 1vw 1vw;
+  font-size: 1.5vw;
+  line-height: 1.2;
 }
 
 figure.caption-top figcaption {
-  top: 20px;
-  left: 20px;
+  top: 2vw;
+  left: 2vw;
   bottom: initial;
   right: initial;
 }
@@ -107,20 +301,40 @@ figure.caption-below figcaption {
 }
 
 video {
+  display: block;
   max-width: 100%;
 }
 
 .sidebar {
-  float: right;
+  float: left;
+  right: 0;
+  bottom: 0;
   position: fixed;
-  margin: 1em;
+  margin: 2vw;
+  width: 20vw;
   padding: 1em;
+  z-index: 2;
 
+  font-size: 1.2vw;
   font-weight: bolder;
   letter-spacing: 0.1em;
 
+  box-shadow: rgba(0,0,0,0.5) 5px 5px 9px 0px;
   background: rgb(38,61,47);
-  background: linear-gradient(300deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+  background: linear-gradient(280deg,
+    rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+
+  text-align: center;
+
+  hr {
+    display: block;
+    border: 0;
+    border-top: 0.25vw solid white;
+    margin: 0.5vw 0;
+    background-color: white;
+    z-index: 3;
+    box-shadow: black 0.0em 0.0em 1.0em;
+  }
 
   ul {
     margin: 0px;
@@ -128,6 +342,7 @@ video {
 
   li {
     display: block;
+    text-align: left;
   }
 
   a {
@@ -141,20 +356,38 @@ video {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .site-nav {
-    display: none;
+@media screen and (max-width: 800px) {
+  .sidebar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+    font-size: 2vw;
+    float: unset;
+    position: unset;
+
+    ul {
+      column-count: 2;
+    }
+  }
+
+  .wrapper {
+    margin-left: 0vw;
+    margin-right: 0vw;
   }
 
   figure {
     position: unset;
   }
 
+  .page-content {
+    padding: 0;
+  }
+
   figure figcaption {
     position: unset;
     max-width: unset;
-    margin: 0px;
-    padding:5px;
+    margin: 0;
+    padding: 1vw;
   }
 }
 

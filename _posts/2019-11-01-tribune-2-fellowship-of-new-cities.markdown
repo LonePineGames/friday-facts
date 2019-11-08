@@ -4,6 +4,11 @@ title:  "New Cities Tribune #2: The Fellowship of New Cities"
 date:   2019-11-01 00:00:00 -0700
 author: supersoup
 #categories: new-cities tribune crowdfunding
+
+video: heatmap-dance
+video-image: heatmap-dance.png
+video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/0.6.0/
+description: The future of the project
 ---
 
 You want to play the game, and we want you to play it. We’re still a good distance away from a public early access release, taking this time to polish up the game and make it as good as we possibly can, but that doesn’t mean you won’t get your chance to play it sooner rather than later. Here’s the story of how we got here, and where we’re going.

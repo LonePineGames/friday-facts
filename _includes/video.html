@@ -1,8 +1,12 @@
 <figure class="video {{ include.class }}">
-  <video autoplay loop controls
-    poster="/assets/images/{{ include.image }}">
+  <video autoplay loop 
+      poster="/assets/images/{{ include.image }}"
+      {% unless include.nocontrols %} controls {% endunless %}
+      >
     <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.mp4">
     <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.webm">
   </video>
-  <figcaption>{{ include.description }}</figcaption>
+  {%- if include.description -%}
+    <figcaption>{{ include.description }}</figcaption>
+  {%- endif -%}
 </figure>

@@ -4,6 +4,10 @@ title:  "New Cities Tribune #1"
 date:   2019-10-22 00:00:00 -0700
 author: supersoup
 #categories: new-cities mitch-report aesthetics
+
+video: sonder
+video-image: sonder.png
+video-prefix: https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.1/
 ---
 
 *This post was contributed by our new community manager, Mitch (supersoup).*

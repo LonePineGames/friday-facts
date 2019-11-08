@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="hero">
+      <img src="/assets/images/abandoned_city_center.png" alt="New Cities"/>
+      <div class="title">
+        <h1>
+          New<br/>
+          Cities
+        </h1>
+        <hr/>
+        <h2>
+          An upcoming<br/>
+          city planning<br/>
+          simulation game<br/>
+          for Windows and Linux
+        </h2>
+      </div>
+    </div>
+
+    {% include sidebar.html %}
+
+    <main class="page-content" aria-label="Content">
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

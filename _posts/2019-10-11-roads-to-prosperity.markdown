@@ -4,6 +4,11 @@ title:  "New Cities Friday Facts #3: Roads to Prosperity"
 date:   2019-10-11 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts transportation
+
+video: interchange
+video-image: interchange.png
+video-prefix: https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/
+description: New Cities has a unique road planning system.
 ---
 
 {% include video.html class="caption-top"

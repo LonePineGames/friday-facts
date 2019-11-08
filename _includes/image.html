@@ -1,7 +1,12 @@
 <figure class="image {{ include.class }}">
-  <!--<a href="{{ include.link | default include.url }}">-->
+  {%- unless include.nolink -%}
   <a href="{{ include.link | default: include.url }}">
+  {%- endunless -%}
     <img src="{{ include.url }}" alt="{{ include.description }}">
+    {%- if include.description -%}
     <figcaption>{{ include.description }}</figcaption>
+    {%- endif -%}
+  {%- unless include.nolink -%}
   </a>
+  {%- endunless -%}
 </figure>

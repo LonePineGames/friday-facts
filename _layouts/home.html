@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: hero
 ---
 
 <div class="home">
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -10,20 +11,31 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">
+      {{ page.list_title | default: "- Blog -" }}
+    </h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        {% assign post_url = post.url | relative_url %}
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {%- if post.image -%}
+            {% include image.html url=post.image class="caption-top"
+              nolink=true %}
+          {%- endif -%}
+          {%- if post.video -%}
+            {% include video.html class="caption-top" video=post.video
+              image=post.video-image prefix=post.video-prefix
+              link=post_url nocontrols=true %}
+          {%- endif -%}
+          <div class="post-headline">
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>{{ post.title | escape }}</h3>
+            <hr/>
+            <h4>{{ post.description | escape }}</h4>
+          </div>
+        </a>
       </li>
       {%- endfor -%}
     </ul>
