@@ -13,13 +13,13 @@ Hello, and welcome to the first edition of The New Cities Tribune: the periodica
 Today we’ll be talking about our favorite city builders, and just what it is about them that resonates with us. So kick back, relax, and join us on this little journey, won’t you?
 
 {% include image.html class="caption-bottom"
-  url="/blog/assets/images/mitchville.png"
+  url="/assets/images/mitchville.png"
   description="My humble community in New Cities. Pay no attention to the perilous condition of my treasury…" %}
 
 There’s something magical about the city builder. The modern gaming landscape is increasingly saturated with competitive games, flush with adrenaline and high-octane thrills as you pit your wits and reflexes against those of other human opponents. Not to knock such games—I enjoy Destiny 2’s Crucible and Counter-Strike as much as the next red-blooded gamer—but it’s nice to remember from time to time that our favorite hobby has so many disparate and varied facets that keep it fresh and lively. There are games that invigorate, as well as games that relax and allow one to unwind at the end of the day. City builders have set the standard since the early days when it comes to [cognitive flow], where we lose all track of time accomplishing goal after goal, some presented by the game but most of which we set for ourselves. Wrapped up in the process—that is, until we glance at the clock and wonder where the hours went.
 
 {% include image.html class="caption-bottom"
-  url="/blog/assets/images/foundation-polymorph.png"
+  url="/assets/images/foundation-polymorph.png"
   description="A screenshot from Foundation by Polymorph Games, another fine indie city builder currently in Early Access" %}
 
 Instead of demanding that we destroy, city builders invite us to create. To solve problems, manage resources, and build new cities. I won’t go so far as to say that these experiences are rare, but they’re not something you see triple-A development studios focusing on anymore. It falls to us, the indie developers, to make the sort of games and experiences we really want to see. Hopefully, if you’re reading this, it’s what you’re looking for too.

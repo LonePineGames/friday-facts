@@ -25,7 +25,7 @@ In order to lay the groundwork for these many modes of transit, I needed to refa
 
 {% include image.html class="caption-below"
   link="https://xkcd.com/2036/"
-  url="/blog/assets/images/edgelord.png"
+  url="/assets/images/edgelord.png"
   description="XKCD 2036" %}
 
 Currently, there are only roads and expressways, but in the future this system might represent train tracks, bus routes, airways, and sea lanes. Underneath the graph is the lane system, which tells vehicles where to go. Lanes are also used for routing. The lane system is managed automatically by the game based on modifications of the graph. Sidewalks, bike lanes and HOV lanes would be implemented as special kinds of lanes on roads and expressways.
@@ -61,6 +61,6 @@ If you're excited about the project, join the [discord] or [subreddit].
 [Wendover Productions]: https://youtu.be/fwjwePe-HmA
 [1]: https://nascsp.org/wp-content/uploads/2018/02/issuebrief-benefitsofruralpublictransportation.pdf
 [graph theory]: https://en.wikipedia.org/wiki/Graph_theory
-[core gameplay loop]: https://gameanalytics.com/blog/how-to-perfect-your-games-core-loop.html
+[core gameplay loop]: https://gameanalytics.com/how-to-perfect-your-games-core-loop.html
 [subreddit]: https://www.reddit.com/r/New_Cities
 [discord]: https://discord.gg/udgeB2E

@@ -49,7 +49,7 @@ Mitch
 
 Join the [discord], [subreddit], and [twitter]! We love to chat with fans about the future of the project.
 
-[blueprints]: https://lonepine.io/blog/2019/10/25/planning-for-success.html
+[blueprints]: https://lonepine.io/2019/10/25/planning-for-success.html
 [subreddit]: https://www.reddit.com/r/New_Cities
 [discord]: https://discord.gg/udgeB2E
 [twitter]: https://twitter.com/lone_pine_games

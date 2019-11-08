@@ -110,6 +110,37 @@ video {
   max-width: 100%;
 }
 
+.sidebar {
+  float: right;
+  position: fixed;
+  margin: 1em;
+  padding: 1em;
+
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+
+  background: rgb(38,61,47);
+  background: linear-gradient(300deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
+
+  ul {
+    margin: 0px;
+  }
+
+  li {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    vertical-align: middle;
+    width: 2em;
+    padding: 5px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .site-nav {
     display: none;

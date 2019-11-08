@@ -23,7 +23,7 @@ website: lonepine.io
 #email: info@lonepine.io
 description: >- # this means to ignore newlines until "baseurl:"
   Build Prosperity.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+#baseurl: "/blog" # the subpath of your site, e.g. /blog
 show_excerpt: true
 future: true
 url: "https://lonepine.io" # the base hostname & protocol for your site, e.g. http://example.com

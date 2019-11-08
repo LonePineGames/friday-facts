@@ -6,7 +6,7 @@ author: Lone Pine
 #categories: new-cities friday-facts sound
 ---
 
-{% include image.html url="/blog/assets/images/sunset.png" description="This post is about sound, so here's a pretty image." %}
+{% include image.html url="/assets/images/sunset.png" description="This post is about sound, so here's a pretty image." %}
 
 For a long time, it wasn't in my plans for the game to have sound by the time it went to early access. It's not that I didn't want sound, but it wasn't a priority. I can't recall ever having played a game without sound (or without music), but I also never felt like it was the most important part of any game. For a thousand-hour game, most players will mute the game music at some point and listen to their own music, or a podcast, etc. This week I implemented environmental sounds in the game, and I'm happy to say that I was wrong about it's importance -- sound makes the game a much more complete audio-visual experience.
 
@@ -14,7 +14,7 @@ Music was never a talent of mine and I never learned to play an instrument. I ha
 
 Video game music is usually built around melodic chord progressions which are plesant enough to not be tedious when repeated for a long time. I still haven't figured out the arcane rules of chord progressions, but fortunately people who do understand them have written chord progression generators that can easily be found through Google. All of the game music is created by starting with one of these progressions, and then just repeating, modifying, and playing with the pattern of notes and beats to make it interesting.
 
-{% include image.html url="/blog/assets/images/menu.png" description="The main menu. I also added clouds to the skybox this week." %}
+{% include image.html url="/assets/images/menu.png" description="The main menu. I also added clouds to the skybox this week." %}
 
 Once I had music implemented in the game, it was easy enough to add user interface sound effects (a click sound when you place a road, for example). But for a while there were no environmental sounds. This week I changed that. I've implemented a pretty immersive sound environment. There are ambient sounds of traffic, human activity, and life in the city. There are also sounds for the wind, rain, water, and wildlife. I even added a fun retro floppy disk sound when the game starts and on save/load. These additions really add a lot to the game.
 
