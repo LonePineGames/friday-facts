@@ -115,10 +115,16 @@ body {
   box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
   padding: 1vw;
   text-align: center;
+  min-height: unset;
 
   .wrapper {
     width: 30vw;
-    margin-left: 14vw;
+    margin-left: 15.5vw;
+  }
+
+  img {
+    vertical-align: middle;
+    padding-bottom: 1vw;
   }
 }
 
