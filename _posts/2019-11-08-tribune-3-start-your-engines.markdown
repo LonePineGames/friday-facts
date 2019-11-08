@@ -47,11 +47,7 @@ To start the party, as of the current internal alpha build, we’ve moved the co
 
 In truth, the move to Lua for constants and values is an experiment. It began life as a developers’ tool which we quickly discovered had value for players as well. Given the success in moving key constants to Lua, there’s now significant interest behind-the-scenes in seeing what else can be moved into Lua and opened up to the players. While it’s impossible to say exactly what that might look like, it’s a safe bet that player-designed buildings, gauntlet-style challenge cities, and easy modes for maxing and relaxing are just a few of the opportunities that await.
 
-In the future, we plan to include support for mods which react to game events, read and write heatmaps, add elements to the user interface, and introduce entirely new features.
-
-As with any new city, there is no limit.
-
-Join the [discord], [subreddit], and [twitter]! We love to chat with fans about features and design decisions.
+In the future, we plan to include support for mods which react to game events, read and write heatmaps, add elements to the user interface, and introduce entirely new features. We'd love to have your feedback. What do you think are the keys to a good modding system? Which games got it right, and which got it wrong? Join the [discord], [subreddit], and [twitter]!
 
 [subreddit]: https://www.reddit.com/r/New_Cities
 [discord]: https://discord.gg/udgeB2E
