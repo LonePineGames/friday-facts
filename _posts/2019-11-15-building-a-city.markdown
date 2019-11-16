@@ -23,7 +23,7 @@ Ten floors was the original definition of a skyscraper, as opposed to today's mi
 {% include image.html class="caption-bottom"
   url="/assets/images/flat-iron.jpg"
   description="When ten stories is a feat, you don't leave empty space."
-  link="https://upload.wikimedia.org/wikipedia/commons/f/fa/View_of_the_Flat_Iron_Arts_Building_from_the_Coyote_Tower_%285266790849%29.jpg" 
+  link="https://en.wikipedia.org/wiki/Wicker_Park,_Chicago#/media/File:View_of_the_Flat_Iron_Arts_Building_from_the_Coyote_Tower_(5266790849).jpg"
   %}
 
 But cities built in the late 20th century actually weren't under those constraints. Instead, city administrators impose rules on how buildings are to be arranged, how much open space to leave, and so on. There's many tradeoffs to the decisions city administrators make, such as the character of the city, how much space to leave for parking, availability of transportation, issues of pollution and nature, and the health effects (physical and psychological) of packed-in spaces.
@@ -35,17 +35,17 @@ It isn't actually pleasant to be boxed in by endless brick walls, so these days 
   description="Why is there so much empty space?"
 %}
 
-And that gets us to today's frustration: making downtowns in New Cities look realistically dense. As the game stands today, there are six issues that cause empty space.
+And that brings us to today's frustration: making city centers in New Cities look realistically dense. As the game stands today, there are six issues that cause empty space:
 
 # Issue #1 - Unfilled Lots
 
-Sometimes there isn't a zoneable lot where there should be. For example, when destroying a road (such as to rebuild an intersection with traffic problems), any lots that road was overlapping are not restored, leaving an empty space where the road was. I expect to fix this soon.
+Sometimes there isn't a zoneable lot where there should be. For example, when destroying a road (such as to rebuild an intersection with traffic problems), any lots that the road was overlapping are not restored, leaving an empty space. I expect to fix this soon.
 
-Other times there is a lot but it doesn't get filled due to lack of demand in that zone. This is a matter of tuning the density heatmap to match changes in zone demand.
+Other times there is a zoned lot available, but it doesn't get filled due to lack of demand in that zone. This is a matter of tuning the density heatmap to match changes in zone demand.
 
 # Issue #2 - Nothing to Fill the Lot
 
-These are problems with the "building set" or collection of building designs. Every building in the game was designed using the Building Designer. Players will be able to create their own designs or even entire building sets. The quality and completeness of the building set is actually important for gameplay. It's essential that there are multiple designs of every size and density, both high land value and low -- otherwise the game might have no appropriate building to place in a location. Every building design in the game has a density tier between 0 and 10. For visual density, open space in the building design is empty space in the game. Tiers greater than 5 will be redesigned to leave little empty space.
+These are problems with the "building set" or collection of building designs. Every building in the game was designed using the Building Designer. Players will be able to create their own designs and even entire building sets. The quality and completeness of the building set is actually important for gameplay. It's essential that there are multiple designs of every size and density, both high land value and low -- otherwise the game might have no appropriate building to place in a location. Every building design in the game has a density tier between 0 and 10. For visual density, open space in the building design is empty space in the game. Tiers greater than 5 will be redesigned to leave little empty space.
 
 # Issue #3 - Imbalanced Growth
 
@@ -58,18 +58,18 @@ Sometimes there are gaps between buildings smaller than the size of a lot. The g
 
 # Issue #5 - Triangles
 
-Any two roads that are not at 90 degree angles to each other create a triangular space that can't be filled by the rectangular building designs. I could add a feature to the building designer to allow for triangular buildings. Triangular Buildings would  have to be stretched to fit different triangle shapes.
+Any two roads that are not at 90 degree angles to each other create a triangular space that can't be filled by the rectangular building designs. I could add a feature to the building designer to allow for triangular buildings. Triangular Buildings would have to be stretched to fit different triangle shapes.
 
 # Issue #6 - Setbacks
 
-Inevitably there will be some empty space, such as the space between the road and the building (the setback). That space should be pavement rather than grass, and so the game now renders pavement on the terrain starting around density tier 5. This means that there can't be any grass in the city center, unless I add a decoration for a "box of grass". Additionally, the road edges should look more like sidewalks than a dirt shoulder, so I'm working on graphics for sidewalks. (Note that we are a long way from pedestrian simulation, but you can use your imagination for now.)
+Inevitably there will be some empty space, such as the space between roads and buildings (the setback). That space should be pavement rather than grass, and so the game now renders pavement on the terrain starting around density tier 5. This means that there can't be any grass in the city center, unless I add a decoration for a "box of grass". Additionally, the road edges should look more like sidewalks than a dirt shoulder, so I'm working on graphics for sidewalks. (Note that we are a long way from pedestrian simulation, but you can use your imagination for now.)
 
 {% include image.html class="caption-top"
   url="/assets/images/pavement2.png"
   description="The Pavement Must Grow."
 %}
 
-I expect to make progress on most of these issues in the month of December, or during the closed alpha starting in January. If this is important to you, or if it isn't and you would rather I prioritize something else, you can let me know! The IndieGoGo crowdfunding campaign starts before the end of the month, and hopefully as soon as next week. Contributors will get votes in the development priorities poll, allowing you to influence the design direction of New Cities!
+I expect to make progress on most of these issues in the month of December, or during the closed alpha starting in January. If this is important to you, or if it isn't and you would rather I prioritize something else, let me know! The IndieGoGo crowdfunding campaign starts before the end of the month, and hopefully as soon as next week. Contributors will have the opportunity to vote in the development priorities poll, allowing you to influence the design direction of New Cities!
 
 To know just when the crowdfunding campaign goes live, join the [discord], [subreddit], and [twitter].
 
