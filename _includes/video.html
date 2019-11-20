@@ -3,8 +3,8 @@
       poster="{{ include.image }}"
       {% unless include.nocontrols %} controls {% endunless %}
       >
-    <source src="a{{include.prefix | default '/assets/video/'}}{{include.video}}.mp4">
-    <source src="a{{include.prefix | default '/assets/video/'}}{{include.video}}.webm">
+    <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.mp4">
+    <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.webm">
   </video>
   {%- if include.description -%}
     <figcaption>{{ include.description }}</figcaption>
