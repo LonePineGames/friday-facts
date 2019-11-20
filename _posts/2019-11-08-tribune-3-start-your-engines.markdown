@@ -9,7 +9,7 @@ redirect_from:
 
 video: park-pollution
 video-image: park-pollution.png
-video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/nct3v0/
+video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: Announcing Mod Support
 ---
 
@@ -40,7 +40,7 @@ While we don’t expect to see any first-person shooters result from New Cities 
 
 {% include video.html class="caption-top"
   video="park-pollution" image="park-pollution.png"
-  prefix="https://github.com/LonePineGames/friday-facts/releases/download/nct3v0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Adding a park to reduce the effects of pollution." %}
 
 To start the party, as of the current internal alpha build, we’ve moved the core constants for features like heatmaps, city growth, and more out to a “constants.lua” file. This opens up the core coefficients and values to the end user to tweak and experiment with to your heart’s content. Feel like your city’s growing too slowly? Try tinkering with the Prosperity and Land Value dissipation rates. Tired of dealing with pollution? Change it so all pollution is zeroed out! Game too easy? Turn the Crime effect up tenfold or a hundredfold!

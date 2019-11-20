@@ -9,14 +9,14 @@ redirect_from:
 
 video: loading
 video-image: loading.png
-video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/ncff7v0/
+video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: Notice anything different?
 
 ---
 
 {% include video.html class="caption-top"
   video="loading" image="loading.png"
-  prefix="https://github.com/LonePineGames/friday-facts/releases/download/ncff7v0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
  %}
 
 Another short post. This week I rebuilt the website. (Maybe you noticed.)

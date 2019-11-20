@@ -9,7 +9,7 @@ redirect_from:
 
 video: heatmap-dance
 video-image: heatmap-dance.png
-video-prefix: https://github.com/LonePineGames/friday-facts/releases/download/0.6.0/
+video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: The future of the project
 ---
 
@@ -23,7 +23,7 @@ New Cities was officially announced in April of 2019, with hopes that we would h
 
 {% include video.html class="caption-top"
   video="heatmap-dance" image="heatmap-dance.png"
-  prefix="https://github.com/LonePineGames/friday-facts/releases/download/0.6.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Watching a small town become educated." %}
 
 Now that we’ve retraced our steps, let’s talk about the future.

@@ -9,6 +9,7 @@ redirect_from:
 
 video: clover-copy-short
 video-image: clover-copy.png
+video-prefix: https://newcities-videos.s3.amazonaws.com/
 video-prefix: https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/
 description: Blueprints are awesome.
 
@@ -16,7 +17,7 @@ description: Blueprints are awesome.
 
 {% include video.html class="caption-top"
   video="clovers-are-bad" image="clovers-are-bad.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="This is why cloverleaf interchanges are bad #BanTheClover" %}
 
 For a few years, I was highly addicted to the fantastic game [Factorio]. Fortunately for you, that addiction has subsided, and now I'm addicted to The Programming Game instead. Factorio's endgame is amazing because of just how much happens in a giant factory --- belts, trains and flying robots, oh my! -- and how much they've done to maximize the performance. A modern gaming PC can easily run what's called a "1KSPM" factory; that is, a factory that produces 1000 of each type of science per minute. This requires launching an orbital-class rocket, the most expensive item in the game, every single minute. By [my math] that 1KSPM factory produces and consumes at least 100,000 plates of iron per minute, and each of those plates must be transported on a belt (or robot).
@@ -27,7 +28,7 @@ When I playtest, I experience a lot of the early game -- too much! Right now, I 
 
 {% include video.html class="caption-top"
   video="clover-copy-short" image="clover-copy.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Duplicate an interchange with just a few clicks." %}
 
 Blueprints are easy to capture -- just click, select, and click again. They can be named and saved to a separate file, allowing you to reuse them across all your cities. Blueprints capture roads and expressways, as well as zoned lots and amenities like schools and parks, allowing you to make repeatable neighborhood layouts. They can be rotated, of course, and can also be flipped (or mirrored) -- a feature that was frustratingly absent from Factorio! And, of course, Blueprints can be exported to the clipboard and shared with the New Cities community.
@@ -44,7 +45,7 @@ Most cities will only feature a few interchanges, if any, but Blueprints are not
 
 {% include video.html class="caption-top"
   video="neighborhood-copy" image="neighborhood-copy.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Living space for thousands - just plop it down!" %}
 
 You might have noticed that New Cities strips out a lot of traditional city-builder features. Currently, there is no power nor water, no fires nor natural disasters (and therefore no fire stations), and certainly no dead bodies or individually-simulated blobs of sewage. These aspects are omitted because I don't find them interesting. Utilities add no interesting choices to the game -- either your city has utilities, or it doesn't work as a city. These aspects add developer time, slow down the player, and take up CPU cycles that I'd rather use to make the maximal cities larger. (Power is an exception, since coal vs nuclear vs green is an interesting choice, and so power could be included if crowdfunding contributors ask for it.)

@@ -9,13 +9,13 @@ redirect_from:
 
 video: interchange
 video-image: interchange.png
-video-prefix: https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/
+video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: New Cities has a unique road planning system.
 ---
 
 {% include video.html class="caption-top"
   video="interchange" image="interchange.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="A stack interchange" %}
 
 Cities are really about transportation. People choose where to live based on estimated travel time to work, school, or amenities. "Research<sup>[&#91;1&#93;][1]</sup> has shown that ease of access to transport has a stronger influence on whether someone will earn more than their parents did, than the level of crime in their area or whether they grew up in a two-parent household," according to [Wendover Productions].
@@ -25,7 +25,7 @@ New Cities features many kinds of roads, from tree-lined boulevards to high-spee
 After the crowdfunding champaign, there will be a contributors-only vote to determine which new features to prioritize, and most of the candidate features will be related to transportation -- so don't worry, your inner train geek will be satisfied.
 
 {% include video.html class="caption-below" video="planner" image="planner.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Designing an expressway ramp in Planner Mode, which allows you to evaluate road designs before paying for them." %}
 
 In order to lay the groundwork for these many modes of transit, I needed to refactor and improve "the graph." The graph is the internal representation of the road system. In the language of [graph theory], the intersections and junctions are "nodes" and the road segments connecting them are "edges". Each edge connects two nodes, and each node to can connect up to six edges.
@@ -43,7 +43,7 @@ But it gets even more complicated. The roads are split in order to conform to th
 
 {% include video.html class="caption-top"
   video="splits" image="splits.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="How splits work" %}
 
 Once the splits are all resolved, intersections must be geometrically arranged, illegal states must be detected (underwater, too steep, etc), and costs must be computed. Terrain must be leveled, buildings must also be leveled, buildings and lots must be reassigned, new zone-able lots must be allocated, and the lane system must be updated. Finally, everything has to be rendered to screen.
@@ -56,7 +56,7 @@ Secondly, it was possible to accidentally create duplicate, overlapping road seg
 
 {% include video.html class="caption-top"
   video="one-way-switch" image="one-way-switch.png"
-  prefix="https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.3.0/"
+  prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Reversing the direction of a one-way road while upgrading it to four lanes and installing traffic lights -- all with just two clicks." %}
 
 Thirdly, it was difficult to predict where intersections would happen. Sometimes roads would go under or over each other unexpectedly. When you actually did want an overpass, sometimes you'd get an intersection instead.  This was particularly frustrating when building expressways. Now the game computes and displays splits as you're placing the road, making connection points clear. It also computes and displays an accurate price tag for the road you're about to place.
