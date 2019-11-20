@@ -1,10 +1,10 @@
 <figure class="video {{ include.class }}">
   <video autoplay loop muted playsinline
-      poster="/assets/images/{{ include.image }}"
+      poster="{{ include.image }}"
       {% unless include.nocontrols %} controls {% endunless %}
       >
-    <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.mp4">
-    <source src="{{include.prefix | default '/assets/video/'}}{{include.video}}.webm">
+    <source src="a{{include.prefix | default '/assets/video/'}}{{include.video}}.mp4">
+    <source src="a{{include.prefix | default '/assets/video/'}}{{include.video}}.webm">
   </video>
   {%- if include.description -%}
     <figcaption>{{ include.description }}</figcaption>

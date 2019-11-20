@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2019/11/01/tribune-2-fellowship-of-new-cities.html
 
 video: park-pollution
-video-image: park-pollution.png
+image: /assets/images/park-pollution.png
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: Announcing Mod Support
 ---
@@ -39,7 +39,7 @@ Mods offer unique experiences, with new gameplay mechanics and features which ca
 While we don’t expect to see any first-person shooters result from New Cities modding, the fact is that only time will tell exactly what you will create and what experiences you’ll discover in the process! The visual assets for the game have long been accessible for modding; every texture is simply a png, and the shaders (little programs that run on the GPU) are plaintext and open to modification. But now it’s time to open up the brain of the game for you to poke and prod.
 
 {% include video.html class="caption-top"
-  video="park-pollution" image="park-pollution.png"
+  video="park-pollution" image="/assets/images/park-pollution.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Adding a park to reduce the effects of pollution." %}
 

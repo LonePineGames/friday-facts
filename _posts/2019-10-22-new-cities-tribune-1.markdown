@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2019/10/22/new-cities-tribune-1.html
 
 video: sonder
-video-image: sonder.png
+image: /assets/images/sonder.png
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 ---
 
@@ -34,7 +34,8 @@ And that brings us back to the question poised at the beginning: what is it abou
 
 As the late, great Bob Ross says about painting: “You have unlimited freedom on this canvas.” And I believe that’s true of certain games as well—you’re given a canvas, and the developer provides all the tools and colors you need to paint a beautiful picture. A portrait of life. And perhaps there’s no portrait so grand or [sonderous] as the city, the hub of humanity since ages past. When we abandoned nomadic existence in favor of banding together into communities, cities soon followed, laying the foundation for both scientific endeavors and cultural growth. Humankind condensed like raindrops in a cloud into cities across the globe, each person adding color or vibrance to the glow of these beacons of civilization.
 
-{% include video.html video="sonder" image="sonder.png" class="caption-below"
+{% include video.html video="sonder" class="caption-below"
+  image="/assets/images/sonder.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="There’s nothing quite so wistful or sonderous as looking out over a city at night" %}
 

@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2019/10/25/planning-for-success.html
 
 video: clover-copy-short
-video-image: clover-copy.png
+image: /assets/images/clover-copy.png
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 video-prefix: https://github.com/LonePineGames/lonepinegames.github.io/releases/download/v0.5.0/
 description: Blueprints are awesome.
@@ -16,7 +16,7 @@ description: Blueprints are awesome.
 ---
 
 {% include video.html class="caption-top"
-  video="clovers-are-bad" image="clovers-are-bad.png"
+  video="clovers-are-bad" image="/assets/images/clovers-are-bad.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="This is why cloverleaf interchanges are bad #BanTheClover" %}
 
@@ -27,7 +27,7 @@ From a performance perspective, an item on a belt is not very different from a c
 When I playtest, I experience a lot of the early game -- too much! Right now, I need a way to quickly skip past the early game so I can design the giant cities I dream of, while testing the performance and game balance of the mid-to-late game. Building neighborhoods is fun, but it is also the most time consuming part of the game. To accelerate this process, I borrowed a feature from Factorio: Blueprints.
 
 {% include video.html class="caption-top"
-  video="clover-copy-short" image="clover-copy.png"
+  video="clover-copy-short" image="/assets/images/clover-copy.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Duplicate an interchange with just a few clicks." %}
 
@@ -44,7 +44,7 @@ In Test Mode you can design and test interchanges -- or any other road system --
 Most cities will only feature a few interchanges, if any, but Blueprints are not a niche feature. The real value of the tool is neighborhood designs, which allow you to plop residential space for thousands of people very quickly. Blueprinting also accelerates the laying out of farmlands.
 
 {% include video.html class="caption-top"
-  video="neighborhood-copy" image="neighborhood-copy.png"
+  video="neighborhood-copy" image="/assets/images/neighborhood-copy.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Living space for thousands - just plop it down!" %}
 

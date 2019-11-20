@@ -8,13 +8,13 @@ redirect_from:
   - /blog/2019/10/11/roads-to-prosperity.html
 
 video: interchange
-video-image: interchange.png
+image: /assets/images/interchange.png
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: New Cities has a unique road planning system.
 ---
 
 {% include video.html class="caption-top"
-  video="interchange" image="interchange.png"
+  video="interchange" image="/assets/images/interchange.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="A stack interchange" %}
 
@@ -24,7 +24,8 @@ New Cities features many kinds of roads, from tree-lined boulevards to high-spee
 
 After the crowdfunding champaign, there will be a contributors-only vote to determine which new features to prioritize, and most of the candidate features will be related to transportation -- so don't worry, your inner train geek will be satisfied.
 
-{% include video.html class="caption-below" video="planner" image="planner.png"
+{% include video.html class="caption-below" video="planner"
+  image="/assets/images/planner.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Designing an expressway ramp in Planner Mode, which allows you to evaluate road designs before paying for them." %}
 
@@ -42,7 +43,7 @@ When you place an edge (road), the game detects any place where that edge crosse
 But it gets even more complicated. The roads are split in order to conform to the elevation of terrain. Then there is Planner Mode, which allows you to plan roads before paying for them, and this means that splits must keep track of whether roads are completed or just planned.
 
 {% include video.html class="caption-top"
-  video="splits" image="splits.png"
+  video="splits" image="/assets/images/splits.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="How splits work" %}
 
@@ -55,7 +56,7 @@ The graph was the very first thing I implemented, and therefore was most in need
 Secondly, it was possible to accidentally create duplicate, overlapping road segments (two roads connecting the same two intersections). This not only looked ugly but caused further glitches. Now when you overlap one road with another, it upgrades or modifies that section of road instead. In addition, building-by-overlap corrects the direction of one-way roads and expressways, meaning you can change the direction of a long stretch of one-way road using just two clicks -- a really powerful tool.
 
 {% include video.html class="caption-top"
-  video="one-way-switch" image="one-way-switch.png"
+  video="one-way-switch" image="/assets/images/one-way-switch.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Reversing the direction of a one-way road while upgrading it to four lanes and installing traffic lights -- all with just two clicks." %}
 

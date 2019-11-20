@@ -20,14 +20,13 @@ layout: hero
         {% assign post_url = post.url | relative_url %}
         <a class="post-link" href="{{ post.url | relative_url }}">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          {%- if post.image -%}
-            {% include image.html url=post.image class="caption-top"
-              nolink=true %}
-          {%- endif -%}
           {%- if post.video -%}
             {% include video.html class="caption-top" video=post.video
-              image=post.video-image prefix=post.video-prefix
+              image=post.image prefix=post.video-prefix
               link=post_url nocontrols=true %}
+          {%- else if post.image -%}
+            {% include image.html url=post.image class="caption-top"
+              nolink=true %}
           {%- endif -%}
           <div class="post-headline">
             <span class="post-meta">{{ post.date | date: date_format }}</span>

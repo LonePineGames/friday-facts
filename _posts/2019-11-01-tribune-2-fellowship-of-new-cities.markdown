@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2019/11/01/tribune-2-fellowship-of-new-cities.html
 
 video: heatmap-dance
-video-image: heatmap-dance.png
+image: /assets/images/heatmap-dance.png
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: The future of the project
 ---
@@ -22,7 +22,7 @@ In June 2017, Lone Pine set out to make a regional traffic system simulator. He 
 New Cities was officially announced in April of 2019, with hopes that we would have an early access version prepped and ready to go by Summer. Obviously, that didn’t happen—we got a little sidetracked in Moria. But we learned a lot, and development continues at a steady pace up through the present day. Internal alpha builds are coming together, team members are testing, and new features like [blueprints] are being implemented on the regular.
 
 {% include video.html class="caption-top"
-  video="heatmap-dance" image="heatmap-dance.png"
+  video="heatmap-dance" image="/assets/images/heatmap-dance.png"
   prefix="https://newcities-videos.s3.amazonaws.com/"
   description="Watching a small town become educated." %}
 
