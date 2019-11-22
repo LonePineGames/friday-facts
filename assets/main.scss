@@ -334,6 +334,24 @@ video {
   max-width: 100%;
 }
 
+figure.youtube {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  min-width: unset;
+  max-width: unset;
+  width: unset;
+
+  iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
 .sidebar {
   float: left;
   right: 0;
