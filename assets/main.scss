@@ -25,7 +25,7 @@ body {
 
 .hero {
   position: relative;
-  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
+  box-shadow: rgba(0,0,0,1) 1vw 1vw 2vw;
 
   img {
     width: 100%;
@@ -114,7 +114,7 @@ body {
   border: none;
   background: rgb(38,61,47);
   background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
-  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
+  box-shadow: rgba(0,0,0,1) 1vw 1vw 2vw;
   padding: 1vw;
   text-align: center;
   min-height: unset;
@@ -240,7 +240,7 @@ a:hover {
 
 .post-list li:hover {
   background: linear-gradient(309deg, rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
-  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
+  box-shadow: rgba(0,0,0,1) 1vw 1vw 2vw;
   * {
     color: white;
   }
@@ -288,7 +288,7 @@ h1 {
 
 figure {
   position: relative;
-  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
+  box-shadow: rgba(0,0,0,1) 1vw 1vw 2vw;
   width: max-content;
   max-width: 100%;
   min-width: 20vw;
@@ -339,6 +339,9 @@ video {
   right: 0;
   bottom: 0;
   position: fixed;
+}
+
+.sidebar-panel {
   margin: 2vw;
   width: 20vw;
   padding: 1em;
@@ -348,7 +351,7 @@ video {
   font-weight: bolder;
   letter-spacing: 0.1em;
 
-  box-shadow: rgba(0,0,0,0.5) 1vw 1vw 2vw;
+  box-shadow: rgba(0,0,0,1) 1vw 1vw 2vw;
   background: rgb(38,61,47);
   background: linear-gradient(280deg,
     rgba(38,61,47,1) 0%, rgba(47,77,59,1) 100%);
@@ -372,7 +375,14 @@ video {
 
   li {
     display: block;
+  }
+
+  &.social-media-sidebar li {
     text-align: left;
+  }
+
+  &.indiegogo-sidebar a {
+    padding-right: 1em;
   }
 
   a {
@@ -399,14 +409,17 @@ video {
 
 @media screen and (max-width: 800px) {
   .sidebar {
+    float: unset;
+    position: unset;
+  }
+
+  .sidebar-panel {
     margin: 2vw 2vw;
     width: unset;
     padding: 1vw;
     font-size: 3vw;
-    float: unset;
-    position: unset;
 
-    ul {
+    &.social-media-sidebar ul {
       column-count: 2;
     }
   }
