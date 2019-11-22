@@ -9,7 +9,6 @@ redirect_from:
 
 video: big-city
 image: /assets/images/big-city.png
-#video-prefix: /assets/video/
 video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: Your chance to play the game.
 ---
