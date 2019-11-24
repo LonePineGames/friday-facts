@@ -13,7 +13,7 @@ video-prefix: https://newcities-videos.s3.amazonaws.com/
 description: Your chance to play the game.
 ---
 
-{% include youtube.html video="kwMJwh3f5Zw" %}
+{% include youtube.html video="bl2YdgIIAzc" %}
 
 Dear friends,
 
