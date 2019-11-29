@@ -18,11 +18,11 @@ Yesterday was Thanksgiving (non-Canadian). As you are no doubt aware, last week 
   description="Some parts of the city are full of houses, others are still developing."
   %}
 
-Mitch is being onboarded as a full developer. He's currently fighting with Visual Studio to get a consistent build environment so he can develop in peace. In my opinion, IDEs are a huge mess, which is why I develop using a bash prompt, vim, and i3wm on Arch (btw I... nevermind). I like to think of it as a customized IDE. To avoid having to compile on Windows, I use MingW, which allows me to cross-compile for Windows from Linux. But I want a developer who mains on Windows since that will be 95% of our customers, so Mitch is stuck with getting MSVC working. Sorry Mitch.
+Mitch is being onboarded as a full developer. He's currently wrestling with Visual Studio to get a consistent build environment so he can develop in peace. In my opinion, IDEs are a huge mess, which is why I develop using a bash prompt, vim, and i3wm on Arch (btw I... nevermind). I like to think of my setup as a customized IDE. To avoid having to compile on Windows, I use MingW, which allows me to cross-compile for Windows from Linux. But I want a developer who mains on Windows since that will be 95% of our customers, so Mitch is stuck with getting MSVC working. Sorry Mitch.
 
-Meanwhile, I've been working on many different things, but this week doesn't have a clear theme, just lots going on. So I'll talk about something offtopic: retro photography.
+Meanwhile, I've been working on many different things, but this week doesn't have a clear theme, just lots going on. So I'll talk about something off-topic: retro photography.
 
-I always choose the window seat when flying -- I love to see all the intricate details of cities, the structure of blocks and roadways, the way that buildings look on top, backlots you weren't supposed to see. It's particularly fun to see all the thousands of cars moving around, and how small they look as the plane climbs higher. I want New Cities to reflect this experience.
+I always choose the window seat when flying -- I love to see all the intricate details of cities, the structure of blocks and roadways, the way that buildings look on top, backlots you weren't supposed to notice. It's particularly fun to watch all the thousands of cars moving around, and how small they look as the plane climbs higher. I want New Cities to reflect this experience.
 
 I recently bought a piece of retro tech: one of the earliest digital cameras, a Sony Digital Mavica. What's unique about this camera is that it uses floppy disks as storage media. The device is clunky by today's standards, since it contains an entire floppy drive, and the image resolution was terrible even by the standards of the time.
 
@@ -43,7 +43,6 @@ And now, the gallery:
 [discord]: https://discord.gg/udgeB2E
 [twitter]: https://twitter.com/lone_pine_games
 [crowdfunding campaign]: https://igg.me/at/new-cities
-
 
 
 
