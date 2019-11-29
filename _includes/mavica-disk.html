@@ -3,6 +3,7 @@
   <h4>{{include.set}}</h4>
   {% assign imagesStr = site.data.mavica[include.set] %}
   {% assign imageList = imagesStr | split: ' ' %}
+  <ul>
   {% for image in imageList %}
     <li class="mavica-photo">
       {% capture imageUrl %}/assets/mavica/{{include.set}}/{{image}}{% endcapture %}
@@ -10,5 +11,6 @@
         description=image %}
     </li>
   {% endfor %}
+  </ul>
 </li>
 

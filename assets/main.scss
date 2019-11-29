@@ -329,6 +329,22 @@ figure.caption-below figcaption {
   max-width: none;
 }
 
+figure.inline {
+  display: inline-block;
+  max-width: unset;
+  min-width: unset;
+  width: 15vw;
+  margin: 0;
+
+  figcaption {
+    position: initial;
+    margin: 0px;
+    font-size: 1vw;
+    text-align: right;
+    max-width: none;
+  }
+}
+
 video {
   display: block;
   max-width: 100%;
@@ -424,6 +440,17 @@ figure.youtube {
   }
 }
 
+ul.mavica {
+  list-style: none;
+  display: block;
+  margin: -0.5vw;
+  text-align: left;
+  li {
+    margin: 0.5vw;
+    display: inline-block;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .post-content p, .post-content ol {
     font-size: 1.2vw;
@@ -516,6 +543,14 @@ figure.youtube {
     font-family: 'Play', sans-serif;
     font-size: 8vw;
     font-weight: bolder;
+  }
+
+  figure.inline {
+    width: 20vw;
+
+    figcaption {
+      display: none;
+    }
   }
 }
 
