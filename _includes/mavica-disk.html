@@ -1,0 +1,14 @@
+
+<li class="mavica-disk">
+  <h4>{{include.set}}</h4>
+  {% assign imagesStr = site.data.mavica[include.set] %}
+  {% assign imageList = imagesStr | split: ' ' %}
+  {% for image in imageList %}
+    <li class="mavica-photo">
+      {% capture imageUrl %}/assets/mavica/{{include.set}}/{{image}}{% endcapture %}
+      {% include image.html class="inline" url=imageUrl
+        description=image %}
+    </li>
+  {% endfor %}
+</li>
+
