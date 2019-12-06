@@ -174,12 +174,17 @@ a:hover {
   }
 }
 
-.post-content p, .post-content ol {
+.post-content p, .post-content ol, .post-content ul {
   font-size: 1.5vw;
   text-align: justify;
   max-width: 30em;
   margin-right: auto;
   margin-left: auto;
+  list-style: square;
+}
+
+.post-content li {
+  margin: 1em 2em 1em 2em;
 }
 
 .post-link {
@@ -452,6 +457,7 @@ ul.mavica {
   list-style: none;
   display: block;
   margin: -0.5vw;
+  max-width: unset;
   text-align: left;
   li {
     margin: 0.5vw;
@@ -460,7 +466,7 @@ ul.mavica {
 }
 
 @media screen and (min-width: 1600px) {
-  .post-content p, .post-content ol {
+  .post-content p, .post-content ol, .post-content ul {
     font-size: 1.2vw;
   }
 
@@ -528,7 +534,7 @@ ul.mavica {
     }
   }
 
-  .post-content p, .post-content ol {
+  .post-content p, .post-content ol, .post-content ul {
     font-size: 3.5vw;
     text-align: justify;
     max-width: unset;
