@@ -7,7 +7,7 @@ author: Lone Pine
 redirect_from:
   - /blog/2019/12/27/results-are-in.html
 
-image: /assets/images/vote-tally-1.png
+image: /assets/images/concord/concord-from-side.png
 description: Our first Council Poll
 
 ---
