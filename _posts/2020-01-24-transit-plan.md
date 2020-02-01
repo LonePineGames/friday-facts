@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #17: Transit Plan"
-date:   2020-01-19 00:00:00 -0700
+date:   2020-01-24 00:00:00 -0700
 author: Lone Pine
 #categories: new-cities friday-facts
 redirect_from:
