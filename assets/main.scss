@@ -465,6 +465,11 @@ ul.mavica {
   }
 }
 
+
+.post-content hr {
+  margin: 40px;
+}
+
 @media screen and (min-width: 1600px) {
   .post-content p, .post-content ol, .post-content ul {
     font-size: 1.2vw;
