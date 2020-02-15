@@ -23,6 +23,13 @@ body {
   max-width: unset;
 }
 
+@keyframes fade {
+  0%   { opacity: 0; }
+  1%  { opacity: 1; }
+  5%  { opacity: 1; }
+  6%  { opacity: 0; }
+  100% { opacity: 0; }
+}
 
 .hero {
   position: relative;
@@ -32,12 +39,39 @@ body {
   padding-top: 56.25%; // Why this ratio and not 62.5%? No idea.
   position: relative;
 
-  img {
+  background-image: url("/assets/images/titleshots/title17.png");
+
+  img.slideshow {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
   }
+
+  .slideshow:nth-child(1) { animation-delay: 0s; }
+  .slideshow:nth-child(2) { animation-delay: 6s; }
+  .slideshow:nth-child(3) { animation-delay: 12s; }
+  .slideshow:nth-child(4) { animation-delay: 18s; }
+  .slideshow:nth-child(5) { animation-delay: 24s; }
+  .slideshow:nth-child(6) { animation-delay: 30s; }
+  .slideshow:nth-child(7) { animation-delay: 36s; }
+  .slideshow:nth-child(8) { animation-delay: 42s; }
+  .slideshow:nth-child(9) { animation-delay: 48s; }
+  .slideshow:nth-child(10){ animation-delay: 54s; }
+  .slideshow:nth-child(11){ animation-delay: 60s; }
+  .slideshow:nth-child(12){ animation-delay: 66s; }
+  .slideshow:nth-child(13){ animation-delay: 72s; }
+  .slideshow:nth-child(14){ animation-delay: 78s; }
+  .slideshow:nth-child(15){ animation-delay: 84s; }
+  .slideshow:nth-child(16){ animation-delay: 90s; }
+  .slideshow:nth-child(17){ animation-delay: 96s; }
+  .slideshow:nth-child(18){ animation-delay: 102s; }
+  .slideshow:nth-child(19){ animation-delay: 108s; }
+  .slideshow:nth-child(20){ animation-delay: 114s; }
 
   .title {
     position: absolute;
@@ -93,22 +127,22 @@ body {
   }
 }
 
-.hero::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  background: linear-gradient(90deg,
-    rgba(0,0,0,0.5) 0%,
-    rgba(0,0,0,0.5) 33%,
-    rgba(0,0,0,0  ) 67%,
-    rgba(0,0,0,0  ) 100%);
-
-  z-index: 1;
-}
+//.hero::after {
+  //content: " ";
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  //width: 100%;
+  //height: 100%;
+  //background: rgba(0,0,0,0.5);
+  //background: linear-gradient(90deg,
+    //rgba(0,0,0,0.5) 0%,
+    //rgba(0,0,0,0.5) 33%,
+    //rgba(0,0,0,0  ) 67%,
+    //rgba(0,0,0,0  ) 100%);
+//
+  //z-index: 1;
+//}
 
 .site-title {
   font-family: 'Play', sans-serif;
