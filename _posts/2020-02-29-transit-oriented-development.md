@@ -27,6 +27,8 @@ Version 51 will also include Mitch's in-game console and object importing. You w
 
 Trains and other mass transit will follow not too long after. Once I release version 51, I will take a week long vacation and will minimize my usage of the internet, so next week's blog post likely will be from Mitch. Once I return, I will finish and polish mass transit, so subways and monorails should be available sometime in the month of March. I have decided to implement pedestrians before trams. (Mixing rail and roadway will be tricky.)
 
+As a special treat, here's a [nine page design doc](/assets/Mass_Transit_Design_Doc.pdf) on our vision for the completed mass transit system.
+
 ---
 
 From Supersoup:
