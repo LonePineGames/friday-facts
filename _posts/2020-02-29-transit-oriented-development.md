@@ -7,16 +7,21 @@ author: Lone Pine
 redirect_from:
   - /blog/2020/02/29/transit-oriented-development.html
 
-image: /assets/images/bus_lines.png
+image: /assets/images/transit-lines.png
 description: We've been focused on one goal.
 
 ---
 
 Apologies for the late post. We've been working hard on our vision to add a great transit system to the game. We don't want to underdeliver, so we appreciate your patience.
 
-This week I successfully refactored the way routes are recorded in order to make mass transit possible. The new routes can represent the path of a private vehicle, or they can represent the path of a bus or train, including all the stops. This same system can also direct a commuter through a series of mass transit lines, or (in the future) a series of pedestrian paths. It could also represent a freight, sea, or air route. This will make all sorts of complicated transporation systems possible.
+This week I successfully refactored the way routes are recorded in order to make mass transit possible. The new routes can represent the path of a private vehicle, or they can represent the path of a bus or train, including all the stops. This same system can also direct a commuter through a series of mass transit lines, or (in the future) a series of pedestrian paths. It could also represent a freight, sea, or air route. This will make all sorts of complicated transportation systems possible.
 
-I know it's been a long wait for mass transit, but I can finally give a date. On or before Monday, March 9th, version 51 will be released. You will be able to set up bus lines, and commuters will choose to take the bus instead of go by car, if possible. If you city is choked by traffic, there will finally be a solution.
+I know it's been a long wait for mass transit, but I can finally give a date. On or before Monday, March 9th, version 51 will be released. You will be able to set up bus lines, and commuters will choose to take the bus instead of going by car, if possible. 
+
+{% include image.html class="caption-bottom"
+  url="/assets/images/transit-lines.png"
+  description="If your city is choked by traffic, there will finally be a solution."
+%}
 
 Version 51 will also include Mitch's in-game console and object importing. You will also be able to set funding levels for mandatory spending (on education, services, and parks), and we will bring back the road wear/repair mechanic, in a less tedious way.
 
@@ -24,23 +29,7 @@ Trains and other mass transit will follow not too long after. Once I release ver
 
 ---
 
-As a space geek, I have been watching with interest the development of new rocket technologies at SpaceX. It's rare that we get regular information on a major engineering project. For many years, they have been planning to build a huge rocket capable of not going to Mars and returning, but softly landing itself when it returns to Earth.
-
-In the last year, they have finally begun to build the thing, but the design has changed radically every year since it's inception. SpaceX CEO Elon Musk commented, "It took us a long time to figure out what the question was."
-
-Any engineering project has one aspect that is the most significant challenge. Before an engineer actually builds a new technology, it can be hard to guess which aspect will be the most difficult, and will most constrain the design. New Cities started as a transportation simulator, so I assumed for a long time that simulating the motion of vehicles would the major user of CPU cycles.
-
-The vehicle simulation is complicated and it took a long time to build, and there is still more to be done (such as proper merging). But the core system is complete and works well. It highly amenable to optimization, so although there is still a performance cost, I expect that cost to continue to decline. Every part of the simulation is linear, and it is highly amenable to parallization.
-
-Meanwhile, there is another part of the game that has been lurking quietly, an engine that is simultaniously critical to the game and the game's primary user of CPU cycles. I am referring to the system that decides which finds paths through the city for the cars (and in the near future, pedestrians and mass transit commuters). We call this system "The Router".
-
-Finding a route on a map is more expensive the bigger the map is, and the rate of growth is not linear. In other words, a map twice as large might take four times as long to route. Since there are thousands of routes to solve, we addressed the issue via caching, but in order to get larger cities with more complicated transit options, we will have to go further and test ideas beyond the well known Djikstra and A\* algorithms.
-
-A fan mentioned the Floyd-Warshall algorithm, which is a method to route an entire map all at once. Unfortunately, it is slower than Djikstra and A\*, and anyway, we couldn't store a solution to every possible route in typical computer's memory. However, understanding the algorithm has given me a hint as to a possible solution.
-
-In the future, I plan to replace the router with a smart cache. The cache will remember the best next step from any location to any given destination. When a new route is needed, the system will step through every location to see if the best next step was previously computed, and if it wasn't, it will compute it and insert it into the cache. This system will do less redundant work, be easier to update and will be quicker to respond to changes. This may be significantly faster. It may not be better at all. I won't know until I try.
-
----
+From Supersoup:
 
 My goal this week was to implement .obj file loading. At present, all of the visuals including terrain and buildings are handled algorithmically, which works fine for most purposes. But there are a handful of situations, including the upcoming Mass Transit update, where having the ability to produce more detailed models (such as for train cars and the like) and then pull them into the game would be preferable. 
 
@@ -48,23 +37,42 @@ As described in [last week’s Friday Facts post](https://www.newcities.io/2020/
 
 Then, it was a matter of figuring out what to do with it. First thing’s first, I had to get the data moved into friendlier data types. 
 
-I created a handful of data structures that mirrored the structs used in OBJ-Loader but used the data types we were already using in the engine. I made simple functions that accepted an OBJ-Loader struct and ported the data over to our own structs, converting the types and returning what we needed. So now that I had all the data in a friendly format, I had to hand it over to the rendering side of the engine and put it in the game world. 
+I created a handful of data structures that mirror the objects generated by the OBJ-Loader, but they use the data types that we’re already using in the engine. I made simple functions that accept an OBJ-Loader object and convert the types, returning what we need. So now that I had all the data in a friendly format, it was time to hand it over to the rendering side of the engine and put it in the game world. 
 
 Using the console, I made a few commands for loading an .obj file, then rendering the .obj file in the world at the origin. To render, I grabbed the imported vertices and indices for triangles, then created a New Cities mesh that I populated with the resulting tris. The result… is perhaps a bit underwhelming. 
 
+
+
 {% include image.html class="caption-bottom"
-  url="/assets/images/obj_import.png"
+  url="/assets/images/obj-import.png"
   description="Every programming journey begins with a Hello World!"
 %}
 
-No, that’s not the monolith from 2001: A Space Odyssey. That’s actually the WIP model for one of our Mass Transit train cars, plastered with the road texture/shader as a placeholder. But the important thing is that it works. We now have a functioning workflow and pipeline for loading .obj files and rendering them in-engine. The next steps will be to associate these models with entities such as vehicles, scale them appropriately, map the right textures and shaders to them, and then turn them loose in your cities.
+No, that’s not the monolith from 2001: A Space Odyssey. That’s actually the WIP model for one of our Mass Transit train cars, plastered with the road texture/shader as a placeholder. But the important thing is that it works. We now have a functioning workflow and pipeline for loading .obj files and rendering them in-engine. The next steps will be to associate these models with entities such as vehicles, scale them appropriately, map the right textures and shaders to them, and then turn them loose in your cities. 
 
-One step at a time.
+One step at a time. 
 
-{% include video.html class="caption-bottom"
-  video="console_floatingpanels" image="/assets/images/console_webmgoeshere.png"
-  prefix="https://newcities-videos.s3.amazonaws.com/"
-%}
+---
+
+From Lone Pine: 
+
+As a space geek, I have been watching with interest the development of new rocket technologies at SpaceX. It's rare that we get regular information on a major engineering project. For many years, they have been planning to build a huge rocket capable of not only going to Mars and returning, but softly landing itself when it gets back to Earth.
+
+In the last year, they have finally begun to build the thing, but the design has changed radically every year since its inception. SpaceX CEO Elon Musk commented, "It took us a long time to figure out what the question was."
+
+Any engineering project has one aspect that is the most significant challenge. Before an engineer actually builds a new technology, it can be hard to guess which aspect will be the most difficult, and will most constrain the design. New Cities started as a transportation simulator, so I assumed for a long time that simulating the motion of vehicles would be the major user of CPU cycles.
+
+The vehicle simulation is complicated and it took a long time to build, and there is still more to be done (such as proper merging). But the core system is complete and works well. It is highly amenable to optimization, so although there is still a performance cost, I expect that cost to continue to decline. Every part of the simulation is linear, and it is highly amenable to parallelization.
+
+Meanwhile, there is another part of the game that has been lurking quietly, an engine that is simultaneously critical to the game and the game's primary user of CPU cycles. I am referring to the system that finds paths through the city for the cars (and in the near future, pedestrians and mass transit commuters). We call this system "The Router".
+
+Finding a route on a map is more expensive the bigger the map is, and the rate of growth is not linear. In other words, a map twice as large might take four times as long to route. Since there are thousands of routes to solve, we partially addressed the issue via caching, but in order to get larger cities with more complicated transit options, we will have to go further and test ideas beyond the well known Djikstra and A\* algorithms.
+
+A fan mentioned the Floyd-Warshall algorithm, which is a method to route an entire map all at once. Unfortunately, it is slower than Djikstra and A\*, and anyway, we couldn't store a solution to every possible route in a typical computer's memory. However, understanding the algorithm has given me a hint as to a possible solution.
+
+In the future, I plan to replace the router with a smart cache. The cache will remember the best next step from any location to any given destination. When a new route is needed, the system will step through every location to see if the best next step was previously computed, and if it wasn't, it will compute it and insert it into the cache. This system will do less redundant work, be easier to update and will be quicker to respond to changes. This may be significantly faster... or it may not be better at all. I won't know until I try.
+
+---
 
 As always, we’re incredibly thankful for our great community across the web. We love seeing the hard work and attention to detail you pour into your cities, and it inspires us every day to keep building. Thank you again for your support!
 
@@ -74,6 +82,5 @@ If you want to play the game and haven’t contributed yet, head over to our [In
 [IndieGoGo page]: https://igg.me/at/new-cities
 [Reddit]: https://www.reddit.com/r/New_Cities
 [Twitter]: https://twitter.com/lone_pine_games
-
 
 
