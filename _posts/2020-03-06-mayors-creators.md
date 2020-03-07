@@ -7,9 +7,8 @@ author: Lone Pine
 redirect_from:
   - /blog/2020/03/06/mayors_creators.html
 
-image: /assets/images/console_import.png
-description: Building something New
-
+image: /assets/images/community/rush_hour(Im-Just-Noel).png
+description: This is your canvas
 ---
 
 Hey folks, it’s supersoup again! This week we’d like to shine the spotlight on the Mayors & Creators in our community. It never gets old seeing the cities you sculpt from the formless clay, and it especially warms my heart to see the custom textures and buildings you’re importing. As we draw nearer to Early Access the modding support will only continue to grow. I’m as eager as an Amazon delivery driver to see what new and innovative things you build! 
