@@ -82,7 +82,7 @@ I could wax poetic again, but I think we all know how I (supersoup) feel about t
 
 {% include image.html class="caption-bottom"
   url="/assets/images/community/rush_hour(Im-Just-Noel).png"
-  description="Rush Hour, by jabatasu"
+  description="Rush Hour, by Im-Just-Noel"
 %}
 
 All the folks heading home from work for the evening. Time to wrap up this Friday Facts as well. Keep posting your screenshots to #share on our Discord, and you might show up in a future post!
