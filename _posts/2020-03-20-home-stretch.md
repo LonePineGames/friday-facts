@@ -15,6 +15,11 @@ Lone Pine: I'm back from vacation, and just in time to hunker down at the comput
 
 Before launching Early Access, I want to have pedestrians, neighboring cities, and most of the mass transit done. We also need to fulfill our promises to IndieGoGo backers, which means implementing new naming features and a statue decoration. We are in the process of hiring an artist to help us with the statues and with other things so that supersoup and I can focus on the core features.
 
+{% include image.html class="caption-bottom"
+  url="/assets/images/neighboring-cities.png"
+  description="I spent today prototyping neighboring cities."
+%}
+
 Neighboring cities are more important than they seem, because having a partially simulated "outside world" will be essential to implementing airports, seaports and freight rail. Those features may come after the Steam Early Access launch, but it's important to lay the groundwork now.
 
 We're also planning a change to the save file format. The current system is a brittle adhoc binary format and I've become more worried about it over time. It's risky to add data to the format, making new features risky to implement. I expect a format like BSON will be more reliable and extensible.
