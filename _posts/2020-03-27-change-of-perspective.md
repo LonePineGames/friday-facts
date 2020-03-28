@@ -66,7 +66,7 @@ Questions? Comments? Feedback on the game? Sound off on our [Discord]{:target="_
 
 As always, we’re incredibly thankful for our great community across the web. We love seeing the hard work and attention to detail you pour into your cities, and it inspires us every day to keep building. Thank you again for your support!
 
-If you want to play the game and haven’t contributed yet, head over to our [IndieGoGo page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with New Cities!
+If you want to play the game and haven’t contributed yet, you still can! Head over to our [IndieGoGo page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with New Cities!
 
 [Discord]:  http://discord.gg/cz6t4J5
 [IndieGoGo page]: https://igg.me/at/new-cities
