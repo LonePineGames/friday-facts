@@ -41,10 +41,10 @@ After the long night where The Sims soundtrack looped until I saw the sun again,
 
 If you’ll allow me another moment on my soapbox, I sincerely hope that if you’re struggling as I did, you make the choice to reach out for help. Whether that’s letting friends or family in on the struggle, or simply contacting a non-judgemental and knowledgeable helper on a hotline, you are not alone and you don’t need to carry that burden alone. Especially in this current season of life. It’s not a sign of weakness to recognize that you’re carrying such a heavy load in mind and soul and you don’t need to do so by yourself. 
 
- National Suicide Prevention Lifeline:
+National Suicide Prevention Lifeline:    
 1-800-273-8255
 
-https://suicidepreventionlifeline.org/chat/
+<https://suicidepreventionlifeline.org/chat/>
 
 ***
 
@@ -52,10 +52,12 @@ Well, that’s a terrifying block of text… Onward!
 
 I have a few more songs in the works as well! Have a small snippet from one of them: 
 
-<audio controls style="margin-left: auto; margin-right: auto; margin-bottom: 15px;">
-  <source src="/assets/audio/27_suburban_sonder.ogg" type="audio/ogg">
-Your browser does not support this HTML5 audio element.
-</audio>
+<p>
+	<audio controls>
+	  <source src="/assets/audio/27_suburban_sonder.ogg" type="audio/ogg">
+	Your browser does not support this HTML5 audio element.
+	</audio>
+</p>
 
 Tonight, Lone Pine will be teaching me how to play Factorio on stream. I really don’t know much about it, so I’m curious to see how this goes down. Perhaps you are as well? Join us at 10pm PDT/1am EDT over on our [Twitch] to follow along as I learn all about automation and anarcho-capitalism on an alien world. 
 
