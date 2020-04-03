@@ -52,12 +52,10 @@ Well, that’s a terrifying block of text… Onward!
 
 I have a few more songs in the works as well! Have a small snippet from one of them: 
 
-<p>
-	<audio controls>
-	  <source src="/assets/audio/27_suburban_sonder.ogg" type="audio/ogg">
-	Your browser does not support this HTML5 audio element.
-	</audio>
-</p>
+<audio controls style="margin-left: auto; margin-right: auto; margin-bottom: 15px;">
+  <source src="/assets/audio/27_suburban_sonder.ogg" type="audio/ogg">
+Your browser does not support this HTML5 audio element.
+</audio>
 
 Tonight, Lone Pine will be teaching me how to play Factorio on stream. I really don’t know much about it, so I’m curious to see how this goes down. Perhaps you are as well? Join us at 10pm PDT/1am EDT over on our [Twitch] to follow along as I learn all about automation and anarcho-capitalism on an alien world. 
 
