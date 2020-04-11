@@ -36,9 +36,11 @@ There’s still a lot to do, so it will be some weeks before this system rolls o
 
 Supersoup: Lone Pine Games is growing! Thanks to your support via IndieGoGo, we were able to bring aboard an artist. Expect to see much more love and attention given to the art side of NewCity in the coming months. And perhaps a new team member introduction post.
 
+# Stream Night
+
 Last week was the first of what I hope to be many Lone Pine stream nights. We played NewCity, started Ahoy City, Anaheim, built residential divisions while listening to dubstep, and talked about VR among many other things. It was great interacting with those of you that watched the stream, and for those that didn’t, I hope you’ll consider joining us next time. But who knows when the next time will be. Could be sooner than you think...
 
-Oh look, there it is. The next time will be tonight: Friday, April 10th, at 10pm PDT/Mtn. We (Lone Pine and supersoup) are going to play Factorio! I (supersoup) have never played, but Lone Pine has—and apparently there’s co-op? Come join, watch me learn a thing or two about automation on alien worlds. We’ll be broadcasting the festivities over on the official [Lone Pine Games Twitch]!
+Oh look, there it is. The next time will be tonight: Friday, April 10th, at 8pm PDT/Mtn. We (Lone Pine and supersoup) are going to play Factorio! I (supersoup) have never played, but Lone Pine has—and apparently there’s co-op? Come join, watch me learn a thing or two about automation on alien worlds. We’ll be broadcasting the festivities over on the official [Lone Pine Games Twitch]!
 
 ::COMM INTERCEPT::    
 ::Proc: decrypt-b64--running…::     
@@ -58,7 +60,7 @@ As always, we’re incredibly thankful for our great community across the web. W
 
 If you want to play the game and haven’t contributed yet, head over to our [IndieGoGo page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with New Cities!
 
-[Lone Pine Games Twitch] (https://www.twitch.tv/lonepinegames)
+[Lone Pine Games Twitch]: https://www.twitch.tv/lonepinegames
 [Discord]:  http://discord.gg/cz6t4J5
 [IndieGoGo page]: https://igg.me/at/new-cities
 [Reddit]: https://www.reddit.com/r/New_Cities
