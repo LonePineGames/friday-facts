@@ -22,7 +22,7 @@ First off, we’re not going VR exclusive. April Fools. We fully intend to conti
   url="/assets/images/27_audacity_01.png"
   description="Mix and remix, until it is done"
 %}
- 
+
 You might notice a new song in an upcoming trailer and in the game as of last week. Called “The Doozie,” it’s the first of what I hope to be multiple musical contributions from me for NewCity. A member of the community said that it reminded them of The Sims—and as far as I’m concerned, there could be no higher praise.
 
 Aside from being a stellar soundtrack, I have a more personal reason for being so moved by the comparison. If you’re interested, I’ll dive into the background behind the song in the next few paragraphs. But please feel free to skip past it if it does not pique your interest. I’ll have a link to a sample from the next song I’m working on afterward. We’re going to get personal, mostly because I believe that sharing our stories can serve to encourage and edify one another. So here we go…
