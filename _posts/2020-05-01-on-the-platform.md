@@ -7,7 +7,7 @@ author: supersoup
 redirect_from:
   - /blog/2020/05/01/on-the-platform.html
 
-image: /assets/images/subway-trains.png
+image: /assets/images/subway-trains2.png
 description: Onward!
 
 ---
@@ -19,7 +19,7 @@ Just a short update on mass transit, but not short for lack of content—rather 
 I have the basics of trains working. Many of the assets are finished and will be integrated next week. On Thursday, May 7, I plan to release an option to run basic diesel trains through your city. We might start adding one new mass transit feature per week.
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/subway-trains.png"
+  url="/assets/images/subway-trains2.png"
 %}
 
 Once trains are working, we will be in a feature freeze as we ready the game for Steam Early Access (planned for late May) and a broader audience. The game will be cleaned up, tuned up, and polished for a couple weeks. After that, we will pivot toward moddability and what I call “platformization”. There’s been loads of great ideas about what might be possible, including different settings, new mechanics, language support, new buildings, heatmaps and effects, and quality of life features. We want to open the game up so that as many of those ideas can be realized as possible, either through us or through the modding community.
