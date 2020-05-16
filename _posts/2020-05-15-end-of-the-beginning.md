@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2020/05/15/end-of-the-beginning.html
 
 image: /assets/images/33_sunsetcity.png
-description: The sun sets on Act 1 of NewCity
+description: The sun sets on Act One of NewCity
 ---
 
 {% include image.html class="caption-bottom"
@@ -20,7 +20,7 @@ Ladies and gentlemen, it’s almost curtain time! We’ve been rehearsing for mo
 
 Yes, this means the Early Access launch is nigh! The wait is measured in weeks instead of months. Soon we’re going to put Early Access live on our Steam storefront and officially start this party. Are you excited? ‘Cause I’m excited! Also terrified. But you know, there is no opportunity for courage in the absence of fear.  
 
-So this means we’re approaching the end of Act 1 in the NewCity narrative. Time for a bit of an intermission while we set the stage for Act 2 and all the craziness to come. We’re feature locked as of now while we prep for Early Access. That means no new features—just bug fixing and polish over the next few weekly releases.  
+So this means we’re approaching the end of Act One in the NewCity narrative. Time for a bit of an intermission while we set the stage for Act Two and all the craziness to come. We’re feature locked as of now while we prep for Early Access. That means no new features—just bug fixing and polish over the next few weekly releases.  
 
 Hey, at least we got trains in before the lock.  
 
@@ -29,7 +29,7 @@ Hey, at least we got trains in before the lock.
   description="I like trains”
 %}
 
-We’re using the spectacular [Asana]{:target=”_blank”} for bug tracking, as it provides a handy interface for creating tasks and updating them with comments on our progress. If you’re involved with a team of any size working on just about any sort of project, I can’t recommend Asana enough. Especially in the post-cubicle world we find ourselves in. When working remote, it helps to have some central locations for sharing info and tracking progress—and Asana makes it easy. No, this isn’t a sponsored post. Why do you ask? 
+We’re using the spectacular Asana for bug tracking, as it provides a handy interface for creating tasks and updating them with comments on our progress. If you’re involved with a team of any size working on just about any sort of project, I can’t recommend Asana enough. Especially in the post-cubicle world we find ourselves in. When working remote, it helps to have some central locations for sharing info and tracking progress—and Asana makes it easy. No, this isn’t a sponsored post. Why do you ask? 
 
 But in all seriousness, it’s a great resource! I won’t often namedrop the tools we’re using behind the scenes to make the magic happen, so rest assured when I do so, it’s because I genuinely find value in the product. 
 
@@ -52,7 +52,7 @@ That’s all well and good. But where do you start? Hmm…
 
 I wasn’t about to let such questions stop me. I had heard a lot about this Unity engine indie devs were using, and it sounded as good as any other. So I downloaded it, launched the editor, and stared at it for a bit. Really stared. You know the sort of staring I’m talking about; where your eyes cross and your vision blurs, and if there was an animal hidden in the background image it would jump right out at you. 
 
-Not long after that, I Googled something akin to “How to make a game with Unity.” It sounds too good to be true, but it’s really that easy. I found a wealth of tutorials and a strong community of friendly, helpful people—but what’s more, I found a YouTube channel by a guy called [Brackeys]{:target=”_blank”}. And I can say with complete and unwavering certainty that I am a game developer today because of him. As I mentioned, I wasn’t about to let silly questions like “What the heck are you doing?!” and “Is this the stupidest decision you’ve ever made in your life?” stop me from pursuing my quest wholeheartedly. Without Brackeys, I would have searched for other resources and tutorials to keep the ball rolling. But I didn’t have to keep searching. I found his YouTube channel and his incredible Unity tutorials. And he was my impersonal mentor during my first steps in the wide world of game development.
+Not long after that, I Googled something akin to “How to make a game with Unity.” It sounds too good to be true, but it’s really that easy. I found a wealth of tutorials and a strong community of friendly, helpful people—but what’s more, I found a YouTube channel by a guy called Brackeys. And I can say with complete and unwavering certainty that I am a game developer today because of him. As I mentioned, I wasn’t about to let silly questions like “What the heck are you doing?!” and “Is this the stupidest decision you’ve ever made in your life?” stop me from pursuing my quest wholeheartedly. Without Brackeys, I would have searched for other resources and tutorials to keep the ball rolling. But I didn’t have to keep searching. I found his YouTube channel and his incredible Unity tutorials. And he was my impersonal mentor during my first steps in the wide world of game development.
 
 I spent the next three months in crunch time. “Do indie devs have crunch time?” you ask. To be honest, I don’t know. I didn’t have a manager breathing down my neck or a timecard to punch. But I was at my desk for more than 12 hours a day 6-7 days per week, and the only items in my web browsing history were YouTube Unity tutorials, StackOverflow questions, and API references. It was an insane grind. I’m fortunate to have such an understanding wife, or else I might be sleeping on a ratty couch in a back alley somewhere. I’d still be making games, but from some public wi-fi hotspot with an old Thinkpad laptop. 
 
@@ -93,7 +93,7 @@ The goal you see in your mind, the summit you’re hiking toward—it may not be
 **Lesson five for picking up a new skill—**
 Be patient and understanding with yourself. You may have an idea in mind about how life is supposed to go, when you’re supposed to hit certain milestones—but life rarely cares about your plans. Be flexible, and identify these moments of opportunity where you can take the next step or make good on a goal. Your achievements are no less exciting or worth celebrating because you earned them “late.” To that I say, “Late according to whom?” 
 
-Hopefully there’s something of value in here for someone out there. If nothing else, I hope you enjoyed the story. Got a skill or hobby you’re eager to explore in this season? Let me know about it! [Tweet me]{:target=”_blank”}, message me on Discord, whatever you find most convenient. I’d love to hear from you. And if you find you’re interested in pursuing game development, I’m happy to continue sharing what I’ve learned. We’re all in this together, and we’re all going to roll into 2021 with dreams fulfilled or goals in progress. 
+Hopefully there’s something of value in here for someone out there. If nothing else, I hope you enjoyed the story. Got a skill or hobby you’re eager to explore in this season? Let me know about it! Tweet me, message me on Discord, whatever you find most convenient. I’d love to hear from you. And if you find you’re interested in pursuing game development, I’m happy to continue sharing what I’ve learned. We’re all in this together, and we’re all going to roll into 2021 with dreams fulfilled or goals in progress. 
 
 Let’s make this a better year than it has any right to be. 
 
@@ -107,9 +107,6 @@ As always, we’re incredibly thankful for our great community across the web. W
 
 If you want to play the game and haven’t contributed yet, head over to our [IndieGoGo page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with New Cities!
 
-[Asana]: https://asana.com/
-[Brackeys]: https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA
-[Tweet me]: https://twitter.com/supersoup
 [Lone Pine Games Twitch]: https://www.twitch.tv/lonepinegames
 [Discord]:  http://discord.gg/cz6t4J5
 [IndieGoGo page]: https://igg.me/at/new-cities
