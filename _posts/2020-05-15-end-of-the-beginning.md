@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Friday Facts #33: The End of the Beginning",
+title:  "Friday Facts #33: The End of the Beginning"
 date:   2020-05-15 00:00:00 -0700
 author: supersoup
 #categories: new-cities friday-facts
@@ -9,7 +9,6 @@ redirect_from:
 
 image: /assets/images/33_sunsetcity.png
 description: The sun sets on Act 1 of NewCity
-
 ---
 
 {% include image.html class="caption-bottom"
@@ -40,6 +39,7 @@ Speaking of products, let’s talk a bit about the IndieGoGo rewards. If you con
 
 {% include image.html class="caption-bottom"
   url="/assets/images/33_prosperity.png"
+  description="Prosperity can be hard to find"
 %}
 
 Let’s talk about game development. Not as pertains to NewCity, but in the abstract. This is a strange season of life we’ve entered, one where most of us are cooped up at home, either working remotely or trying to find ways to fill the time. Those of us who aren’t already engaged with one project or another may have an abundance of free time to fill. Perhaps you’re once again able to entertain interests, hobbies, and dreams that had fallen by the wayside. 
@@ -73,6 +73,7 @@ Chase your dreams, folks. They’re in your heart for a reason. And there’s no
 
 {% include image.html class="caption-bottom"
   url="/assets/images/33_cityatnight.png"
+  description="Night time is the right time"
 %}
 
 Let’s try to pull a few lessons on self-directed learning from my long and rambling narrative, shall we? 
@@ -92,7 +93,7 @@ The goal you see in your mind, the summit you’re hiking toward—it may not be
 **Lesson five for picking up a new skill:**
 Be patient and understanding with yourself. You may have an idea in mind about how life is supposed to go, when you’re supposed to hit certain milestones—but life rarely cares about your plans. Be flexible, and identify these moments of opportunity where you can take the next step or make good on a goal. Your achievements are no less exciting or worth celebrating because you earned them “late.” To that I say, “Late according to whom?” 
 
-Hopefully there’s something of value in here for someone out there. If nothing else, I hope you enjoyed the story. Got a skill or hobby you’re eager to explore in this season? Let me know about it! [Tweet me], message me on Discord, whatever you find most convenient. I’d love to hear from you. And if you find you’re interested in pursuing game development, I’m happy to continue sharing what I’ve learned. We’re all in this together, and we’re all going to roll into 2021 with dreams fulfilled or goals in progress. 
+Hopefully there’s something of value in here for someone out there. If nothing else, I hope you enjoyed the story. Got a skill or hobby you’re eager to explore in this season? Let me know about it! [Tweet me]{:target=”_blank”}, message me on Discord, whatever you find most convenient. I’d love to hear from you. And if you find you’re interested in pursuing game development, I’m happy to continue sharing what I’ve learned. We’re all in this together, and we’re all going to roll into 2021 with dreams fulfilled or goals in progress. 
 
 Let’s make this a better year than it has any right to be. 
 
