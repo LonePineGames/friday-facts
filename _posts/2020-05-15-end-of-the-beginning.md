@@ -13,7 +13,7 @@ description: The sun sets on Act 1 of NewCity
 
 {% include image.html class="caption-bottom"
   url="/assets/images/33_sunsetcity.png"
- description="The night is always darkest before Early Access”
+ description="The night before Early Access”
 %}
 
 Ladies and gentlemen, it’s almost curtain time! We’ve been rehearsing for months with a limited audience. Now we’re about to take this show on the road. Bring it to the masses, as it were.  
@@ -26,7 +26,7 @@ Hey, at least we got trains in before the lock.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/33_transit.png"
- description="I like trains”
+  description="I like trains”
 %}
 
 We’re using the spectacular [Asana]{:target=”_blank”} for bug tracking, as it provides a handy interface for creating tasks and updating them with comments on our progress. If you’re involved with a team of any size working on just about any sort of project, I can’t recommend Asana enough. Especially in the post-cubicle world we find ourselves in. When working remote, it helps to have some central locations for sharing info and tracking progress—and Asana makes it easy. No, this isn’t a sponsored post. Why do you ask? 
@@ -46,7 +46,7 @@ Let’s talk about game development. Not as pertains to NewCity, but in the abst
 
 It’s an excellent opportunity. And if Google Search Metrics are any indication, many people are choosing to fill this free time by learning a new skill or making good on dusty dreams. Perhaps you have an interest in game development. I sure hope so; I may not be of much use in any other realm. Assuming that you do, or that you’re bored enough to entertain the idea of tinkering with a game of your own, this next section is for you. 
 
-Cast yourself back in your *mind’s eye* to March of 2018. What were you doing? It may have been a month just like any other for you. Or perhaps you have some momentous milestone that immediately springs to mind. I know I do. March of 2018 was the moment I broke free of a proverbial fog bank of aimlessness and uncertainty with a single minded goal: I was going to make a game. I was in a season between jobs, where the only paths forward I could see led me down dark alleys and deeper into the savage wilderness of life. I knew that I had a rare opportunity on my hands, as well as time and the motivation to make good on it. 
+Cast yourself back in your *mind’s eye* to March of 2018. What were you doing? It may have been a month just like any other for you. Or perhaps you have some momentous milestone that immediately springs to mind. I know I do. March of 2018 was the moment I broke free of a proverbial fog bank of aimlessness and uncertainty with a single minded goal—I was going to make a game. I was in a season between jobs, where the only paths forward I could see led me down dark alleys and deeper into the savage wilderness of life. I knew that I had a rare opportunity on my hands, as well as time and the motivation to make good on it. 
 
 That’s all well and good. But where do you start? Hmm…
 
@@ -65,9 +65,9 @@ By June, I was ready. All these hours of head-down development had come together
 
 It’s discouraging to think that you reached the summit of the mountain, only to discover it was a false summit and that you’re barely half-way up (if that). It could have been the shock to my system needed to snap me back to reality. But I’m nothing if not reckless and persistent. In fact, it convinced me that what I really needed to do was tear my game down to the bare foundation and start over. That was a hard, hard conversation to have with myself. In the end though, I’m glad I had it. 
 
-And while I was talking to myself (not literally, of course), I realized something else. I had finally found my nebulous and elusive “calling,” so to speak. People talk about finding that one thing in life that really sets a fire in your soul and makes you excited to leap out of bed in the morning. I had never had the pleasure of discovering that before March of 2018. I thought I was doomed to a life of simple work and separate dreams besides. But for the first time, it all clicked. I was doing something I loved. I wasn’t getting paid for it. No one was popping into my makeshift office to make sure I was on task. I was doing what I loved because *I wanted to do it*. It can’t be overstated: this changed everything for me. 
+And while I was talking to myself (not literally, of course), I realized something else. I had finally found my nebulous and elusive “calling,” so to speak. People talk about finding that one thing in life that really sets a fire in your soul and makes you excited to leap out of bed in the morning. I had never had the pleasure of discovering that before March of 2018. I thought I was doomed to a life of simple work and separate dreams besides. But for the first time, it all clicked. I was doing something I loved. I wasn’t getting paid for it. No one was popping into my makeshift office to make sure I was on task. I was doing what I loved because *I wanted to do it*. It can’t be overstated—this changed everything for me. 
 
-So yeah, I had to take my game back to the drawing board and just about start from scratch again. I realized I needed some more knowledge to make it happen; perhaps more directed learning than I could provide for myself through Google and StackOverflow. So I went back to school in Fall of 2018. It was a weird feeling to be in college in my late 20s, especially so considering the degree I was chasing was almost a byproduct of what I was really after: learning more about programming so I could make more and better games. After dropping out of college five years prior for lack of drive and focus, I said I would come back and get a degree for something once I “really knew what I wanted to do.” I had finally found my reason to get a degree. I graduated with my Associate’s in Computer Science, Emphasis Programming, in Fall of 2019. But if you’re paying attention, I had already been working at Lone Pine Games as of the middle of that semester. I’m not the best programmer or game developer in the world. But I’m so thankful Lone Pine took a chance on me, and I can’t believe I get to wake up every morning and do what I love for a living. 
+So yeah, I had to take my game back to the drawing board and just about start from scratch again. I realized I needed some more knowledge to make it happen; perhaps more directed learning than I could provide for myself through Google and StackOverflow. So I went back to school in Fall of 2018. It was a weird feeling to be in college in my late 20s, especially so considering the degree I was chasing was almost a byproduct of what I was really after—learning more about programming so I could make more and better games. After dropping out of college five years prior for lack of drive and focus, I said I would come back and get a degree for something once I “really knew what I wanted to do.” I had finally found my reason to get a degree. I graduated with my Associate’s in Computer Science, Emphasis Programming, in Fall of 2019. But if you’re paying attention, I had already been working at Lone Pine Games as of the middle of that semester. I’m not the best programmer or game developer in the world. But I’m so thankful Lone Pine took a chance on me, and I can’t believe I get to wake up every morning and do what I love for a living. 
 
 Chase your dreams, folks. They’re in your heart for a reason. And there’s no better time to dust them off and bring them back out of the closet of your mind than a season where the entire world is in upheaval. We’re all reinventing ourselves right now. Come out the other side of this chrysalis as the person you wished you could have become. If you only had the time. 
 
@@ -78,19 +78,19 @@ Chase your dreams, folks. They’re in your heart for a reason. And there’s no
 
 Let’s try to pull a few lessons on self-directed learning from my long and rambling narrative, shall we? 
 
-**Lesson one for picking up a new skill:** 
+**Lesson one for picking up a new skill—** 
 Start as simply as you need to. It can literally be as simple as Googling “How to make a game with X,” where X is your engine/framework/programming language of choice. 
 
-**Lesson two for picking up a new skill:** 
+**Lesson two for picking up a new skill—** 
 Find a mentor. They don’t even need to know who you are; just find someone you can follow by example, or someone willing to share what they’re learned. 
 
-**Lesson three for picking up a new skill:** 
+**Lesson three for picking up a new skill—** 
 Be ready to commit yourself and develop discipline. It’s a lot of work, but if you love what you do, you’ll only suffer existential crises half as often. 
 
-**Lesson four for picking up a new skill:** 
+**Lesson four for picking up a new skill—** 
 The goal you see in your mind, the summit you’re hiking toward—it may not be the end of the road at all. In fact, if you’re lucky it’s only the beginning. Don’t get discouraged. Keep your chin up. Life is a marathon, not a sprint. And sometimes starting from scratch with new knowledge is just the thing you need to be your best. 
 
-**Lesson five for picking up a new skill:**
+**Lesson five for picking up a new skill—**
 Be patient and understanding with yourself. You may have an idea in mind about how life is supposed to go, when you’re supposed to hit certain milestones—but life rarely cares about your plans. Be flexible, and identify these moments of opportunity where you can take the next step or make good on a goal. Your achievements are no less exciting or worth celebrating because you earned them “late.” To that I say, “Late according to whom?” 
 
 Hopefully there’s something of value in here for someone out there. If nothing else, I hope you enjoyed the story. Got a skill or hobby you’re eager to explore in this season? Let me know about it! [Tweet me]{:target=”_blank”}, message me on Discord, whatever you find most convenient. I’d love to hear from you. And if you find you’re interested in pursuing game development, I’m happy to continue sharing what I’ve learned. We’re all in this together, and we’re all going to roll into 2021 with dreams fulfilled or goals in progress. 
