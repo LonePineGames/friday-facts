@@ -43,12 +43,12 @@ What’s a stacktrace you ask? Buckle up.
 
 When a program is running, functions within the program contain the logic and algorithms that keep things humming along. Each function has a header that defines the sort of function it is and what parameters it accepts, along with a body that contains the set of statements to be run. In pseudocode, a function might look something like this:
 
-Function MyFunction (Accepts two numbers, Num1 and Num2)
-Begin Function
-    Create a Sum variable
-    Set Sum to Num1 plus Num2
-    Return (send back) Sum 
-End Function
+Function MyFunction (Accepts two numbers, Num1 and Num2) <br />
+Begin Function <br />
+    Create a Sum variable <br />
+    Set Sum to Num1 plus Num2 <br />
+    Return (send back) Sum <br />
+End Function <br />  
 
 Functions make the programming world go ‘round. But what happens when something goes awry within one? In that case, an exception is raised, and a stacktrace is dumped from the program. The stacktrace contains the list of functions that were called in the chain up until the point of error, and it’s an invaluable tool when debugging. Imagine if the program crashes and didn’t provide any info on when or where the crash occurred? 
 
@@ -63,11 +63,11 @@ Not easy, mind you. Just easier.
 
 We ended up implementing the [StackWalker]{:target=”_blank”} library, which is tailor made for verbose Windows stacktraces. Now when a crash occurs on a Windows machine running NewCity (our largest install base; who knew?) the resulting stacktrace looks something like this:
 
-concallbacks.cpp (28) conCallbackCrash
-coninput.cpp (208) handleCmd
-coninput.cpp (231) consoleParseInput
-console.cpp (90) consoleEntryKey
-part.cpp (152) acceptInput
+concallbacks.cpp (28) conCallbackCrash <br />
+coninput.cpp (208) handleCmd <br />
+coninput.cpp (231) consoleParseInput <br />
+console.cpp (90) consoleEntryKey <br />
+part.cpp (152) acceptInput <br />
 
 So we can clearly see the crash occurred in the function at the top of the stacktrace, conveniently named conCallbackCrash. Yes, that’s a debug console command that forces a crash. Sometimes you need a way to produce a crash on demand to verify that certain systems work as expected. We spend all this time trying to keep the game from crashing just to implement a way to do it on purpose. Game development is a weird business. 
 
@@ -89,7 +89,7 @@ If you want to play the game and haven’t contributed yet, head over to our [In
 [Lone Pine Games Twitch]: https://www.twitch.tv/lonepinegames
 [Discord]:  http://discord.gg/cz6t4J5
 [IndieGoGo page]: https://igg.me/at/new-cities
-[Reddit]: https://www.reddit.com/r/New_Cities
+[Reddit]: https://www.reddit.com/r/NewCity
 [Twitter]: https://twitter.com/lone_pine_games
 
 
