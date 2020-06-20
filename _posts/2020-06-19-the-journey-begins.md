@@ -124,7 +124,7 @@ Let’s wrap up this Friday Facts with a few screenshots of what our community m
 %}
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/37_colors_baleur.png"
+  url="/assets/images/37_colors_baleur.jpg"
   description="Modding the colors - Baleur"
 %}
 
