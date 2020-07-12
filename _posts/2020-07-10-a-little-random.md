@@ -64,7 +64,7 @@ Get some sleep.
 
 Lone Pine: 
 
-I hate to pull out my "I have a degree in computer science with a minor in cryptograph so I know a lot about random numbers" but here I go.
+I hate to pull out my "I have a degree in computer science with a minor in cryptograph so I know a lot about random numbers" card but here I go.
 
 I actually went through the same thought process supersoup did a few months before he joined the team, but with a different outcome. We use a lot -- a LOT -- of random number generation in NewCity. One place we use it is to position trees. Trees are placed randomly in the environment, but with a catch. A "chunk" of terrain can be re-rendered at any time, and we want the trees to stay in the exact same place. Otherwise trees would bizarrely shift around every time the player places a road (since building roads triggers the terrain to redraw.)
 
@@ -90,9 +90,7 @@ It took a lot of work to solve this.
 
 I originally just used the rand() function, an ancient feature of the C programming language. When I first ported the game to Windows (yes, the game was ported *from* Linux *to* Windows), the Windows version had this patterned behavior, because rand() was implemented in a different way by Microsoft. In fact, it looked much worse than the screenshots above, but I don’t have a screenshot from way back then. So I had to implement a custom random number generator to make the game consistent across all platforms.
 
-That’s when I learned about the problem with the Mersenne Twister and all arithmetic based RNGs. I did some research and settled on a version of [Xorshift]{:target="_blank"}. Xorshift doesn’t use multiplication but instead exclusive or and bit shifting, both strange operations that are only meaningful to computers. These operations are non-linear and don’t display patterns (or at least, the patterns aren’t detectable by the human eye.) 
-
-Xorshift makes a very good RNG for our purposes. The tree placement is nice, and 
+That’s when I learned about the problem with the Mersenne Twister and all arithmetic based RNGs. I did some research and settled on a version of [Xorshift]{:target="_blank"}. Xorshift doesn’t use multiplication but instead exclusive or and bit shifting, both strange operations that are only meaningful to computers. These operations are non-linear and don’t display patterns (or at least, the patterns aren’t detectable by the human eye.) Xorshift makes a very good RNG for our purposes.
 
 I’m sure that’s more than you ever wanted to know about random numbers. Let us never speak of it again.
 
