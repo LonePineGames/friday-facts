@@ -64,7 +64,7 @@ Get some sleep.
 
 Lone Pine: 
 
-I hate to pull out my "I have a degree in computer science with a minor in cryptograph so I know a lot about random numbers" card but here I go.
+I hate to pull out my "I have a degree in computer science with a minor in cryptography so I know a lot about random numbers" card but here I go.
 
 I actually went through the same thought process supersoup did a few months before he joined the team, but with a different outcome. We use a lot -- a LOT -- of random number generation in NewCity. One place we use it is to position trees. Trees are placed randomly in the environment, but with a catch. A "chunk" of terrain can be re-rendered at any time, and we want the trees to stay in the exact same place. Otherwise trees would bizarrely shift around every time the player places a road (since building roads triggers the terrain to redraw.)
 
