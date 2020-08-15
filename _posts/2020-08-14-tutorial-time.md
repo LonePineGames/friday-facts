@@ -7,7 +7,7 @@ author: supersoup
 redirect_from:
   - /blog/2020/08/14/tutorial-time.html
 
-image: /assets/images/43_overview.png
+image: /assets/images/44_overview.png
 description: Back to Basics
 ---
 
