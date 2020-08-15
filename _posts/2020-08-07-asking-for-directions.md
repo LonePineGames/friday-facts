@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #43: Asking for Directions"
-date:   2020-07-31 00:00:00 -0700
+date:   2020-08-07 00:00:00 -0700
 author: supersoup
 #categories: new-cities friday-facts
 redirect_from:
