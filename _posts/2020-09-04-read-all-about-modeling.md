@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #46: Read All About Modeling"
-date:   2020-08-21 00:00:00 -0700
+date:   2020-09-04 00:00:00 -0700
 author: Lone Pine
 #categories: new-city friday-facts
 redirect_from:
