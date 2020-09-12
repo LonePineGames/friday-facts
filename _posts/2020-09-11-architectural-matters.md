@@ -69,42 +69,42 @@ Every NewCity game starts in the middle of the last (20th) century. At that time
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_villa_noailles_01.png"
-  description="The Villa Noailles in Hyères by Robert Mallet-Stevens (1923)"
 %}
+The Villa Noailles in Hyères by Robert Mallet-Stevens (1923)
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_villa_savoye_01.png"
-  description="The Villa Savoye in Poissy by Le Corbusier (1928–31)"
 %}
+The Villa Savoye in Poissy by Le Corbusier (1928–31)
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_barcelona_pavilion_01.png"
-  description="The Barcelona Pavilion (modern reconstruction) by Ludwig Mies van der Rohe (1929)"
 %}
+The Barcelona Pavilion (modern reconstruction) by Ludwig Mies van der Rohe (1929)
 
 American architecture also began to be influenced by Modernism during this period, with great new work and skyscrapers by Frank Lloyd Wright, Louis Sullivan (“Form follows Function”) and others. They created various new trends and designs in modern architecture for buildings like majestic skyscrapers, museums, and homes. Trends like Prairie Stlye and Art Deco eventually led to the full integration of Modernism in American architecture.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_larkin_admin_01.png"
-  description="Larkin Administration Building by Frank Lloyd Wright, Buffalo, New York (1904–1906)"
 %}
+Larkin Administration Building by Frank Lloyd Wright, Buffalo, New York (1904–1906)
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_carson_pirie_scott_01.png"
-  description="The Carson, Pirie, Scott and Company Building in Chicago by Louis Sullivan (1904–1906)"
 %}
+The Carson, Pirie, Scott and Company Building in Chicago by Louis Sullivan (1904–1906)
 
 Asian cultures also produced great examples of architecture that combined modern materials and images in creative ways. I.M. Pei is perhaps one of the most prolific figures of this Asian movement, and his style can be found in many great works of architectural art globally.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_national_gallery_art_01.png"
-  description="East Wing of the National Gallery of Art in Washington, D.C., by I. M. Pei (1978)"
 %}
+East Wing of the National Gallery of Art in Washington, D.C., by I. M. Pei (1978)
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_louvre_pyramid_01.png"
-  description="Pyramid of the Louvre Museum in Paris by I. M. Pei (1983–89)"
 %}
+Pyramid of the Louvre Museum in Paris by I. M. Pei (1983–89)
 
 Today, the world has moved into a period of ‘Post Modern’ architecture, from the likes of I.M. Pei, Fazlur Rahman Khan, and others. These architects established new methods of design such as X Bracing and the Trussed Tube (used in the John Hancock - Chicago building) and Bundled Tube (Willis Tower nee Sears Tower - Chicago)
 
@@ -112,8 +112,8 @@ Undoubtedly architecture will continue to offer new and exciting designs for as 
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_building_designer_01.png"
-  description="Your innovative and inspirational architectural handiwork, by You (20??)"
 %}
+Your innovative and inspirational architectural handiwork, by You (20??)
 
 We hope that you, the Chief Architect and Mayor of your NewCity, will be able to create designs that delight and inspire not just your mind, but the minds of others in turn. And please be sure to share these images. They may be of use to others and will certainly enable the NewCity community to continue building beautiful environments and stunning cityscapes.
 
