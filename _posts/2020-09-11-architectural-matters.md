@@ -39,8 +39,6 @@ On the topic of real world architecture, our Executive Producer and Business Adv
 
 Galahad:
 
-#### Architecture in NewCity
-
 Creating visual beauty by using space to blend function and form is the joy of the architect. This is true for both individual buildings as well as entire cities. Many modern cities around the world have re-envisioned their cityscape by blending old architecture with new designs. And often the architect wishes to reference or ‘pay homage’ to an older design while maintaining the unique characteristics of the new one. 
 
 Visionary mayors in NewCity also aspire to create new designs that not only please the eye but integrate with the existing architecture. We see this on the Discord Chat, as the community begins to create and share their own visions through the use of object importation and the Building Design. Some noteworthy examples can be seen below:
@@ -84,9 +82,6 @@ Every NewCity game starts in the middle of the last (20th) century. At that time
   description="The Barcelona Pavilion (modern reconstruction) by Ludwig Mies van der Rohe (1929)"
 %}
 
-
-#### American Architecture
-
 American architecture also began to be influenced by Modernism during this period, with great new work and skyscrapers by Frank Lloyd Wright, Louis Sullivan (“Form follows Function”) and others. They created various new trends and designs in modern architecture for buildings like majestic skyscrapers, museums, and homes. Trends like Prairie Stlye and Art Deco eventually led to the full integration of Modernism in American architecture.
 
 {% include image.html class="caption-bottom"
@@ -99,9 +94,6 @@ American architecture also began to be influenced by Modernism during this perio
   description="The Carson, Pirie, Scott and Company Building in Chicago by Louis Sullivan (1904–1906)"
 %}
 
-
-#### Asian Architecture
-
 Asian cultures also produced great examples of architecture that combined modern materials and images in creative ways. I.M. Pei is perhaps one of the most prolific figures of this Asian movement, and his style can be found in many great works of architectural art globally.
 
 {% include image.html class="caption-bottom"
@@ -113,9 +105,6 @@ Asian cultures also produced great examples of architecture that combined modern
   url="/assets/images/47/47_architecture_louvre_pyramid_01.png"
   description="Pyramid of the Louvre Museum in Paris by I. M. Pei (1983–89)"
 %}
-
-
-#### Post Modernism
 
 Today, the world has moved into a period of ‘Post Modern’ architecture, from the likes of I.M. Pei, Fazlur Rahman Khan, and others. These architects established new methods of design such as X Bracing and the Trussed Tube (used in the John Hancock - Chicago building) and Bundled Tube (Willis Tower nee Sears Tower - Chicago)
 
