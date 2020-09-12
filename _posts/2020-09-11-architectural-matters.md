@@ -67,7 +67,7 @@ Visionary mayors in NewCity also aspire to create new designs that not only plea
 
 These are just a few of the many examples you can find on our Discord. And if you find yourself inspired, you can take advantage of the same tools used by the development team of NewCity to add your own visionary designs to the game. 
 
-Every NewCity game starts in the middle of the last (20th) century. At that time, the efforts of great architects such as Le Corbusier (Robert Mallet-Stevens) d, Meis Van der Roh and others led to the spread of Modernism throughout Europe. 
+Every NewCity game starts in the middle of the last (20th) century. At that time, the efforts of great architects such as Le Corbusier, Robert Mallet-Stevens, Meis Van der Roh and others led to the spread of Modernism throughout Europe. 
 
 {% include image.html class="caption-bottom"
   url="/assets/images/47/47_architecture_villa_noailles_01.png"
