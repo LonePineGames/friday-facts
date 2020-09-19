@@ -43,19 +43,19 @@ Lone Pine:
 
 I was doing game design from a very young age without even realizing it. I made a pawns-only chess variant I called "Sullivan's Stalemate", I made a Magic The Gathering-like card game based on nuclear war, and when I learned to program, I immediately started making computer games.
 
+Now I'm highly focused on making a city builder. To prove out the modding system, I directed the team to focus on making a mod for NewCity with a vaporwave theme. We're planning to release it officially next week. The feedback from playtesters has been extremely positive. Once the modding tools were in place, the game designer within me went to work and before I knew it, we had the beginnings of a new game.
+
 {% include image.html class="caption-bottom"
   url="/assets/images/48/48_vapor_06.png"
 %}
 
-Now I'm highly focused on making a city builder. To prove out the modding system, I directed the team to focus on making a mod for NewCity with a vaporwave theme. We're planning to release it officially next week. The feedback from playtesters has been extremely positive. Once the modding tools were in place, the game designer within me went to work and before I knew it, we had the beginnings of a new game.
-
 Apparently I made another game[^1] recently without even realizing it: [5D Chess with Multiverse Time Travel]{:target="_blank"}. Yes that's a real game. My namesake, Conor Petersen, released the game this summer. (My name is also Conor.) I've been playing it a bit and it's a lot of fun, a great mind-bender.
+
+The team has been talking behind the scenes about a second game from Lone Pine Games. There is still a lot to do with NewCity, so personally I'm in no hurry to start a new game. If we do decide to start a new game, we would still work on and update NewCity. We would start development on the second game early next year, and we're currently reviewing ideas.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/48/48_vapor_04.png"
 %}
-
-The team has been talking behind the scenes about a second game from Lone Pine Games. There is still a lot to do with NewCity, so personally I'm in no hurry to start a new game. If we do decide to start a new game, we would still work on and update NewCity. We would start development on the second game early next year, and we're currently reviewing ideas.
 
 Before any work starts on a new game, I want to finish some core things in NewCity. I want to complete the modding system, and there are still some IndieGoGo backer rewards we must fulfill, namely the statues and the skyscraper-tier rewards. I also want to rebuild and expand the transportation system to support many polymorphus types of transportation, including aircraft, freight, seacraft, and more mass transit options. The final version of the transportation system will be fully moddable.
 
@@ -97,7 +97,7 @@ As always, we’re incredibly thankful for our great community across the web. W
 
 If you want to play the game and haven’t got it yet, head over to our [Steam page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with NewCity!
 
-[^1]: To be clear, this is a joke. 5D Chess with Multiverse Time Travel is not my game and I'm not claiming credit for it.
+[^1]: Note 1 - To be clear, this is a joke. 5D Chess with Multiverse Time Travel is not my game and I'm not claiming credit for it.
 [5D Chess with Multiverse Time Travel]: https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/
 [Discord]:  http://discord.gg/cz6t4J5
 [Steam page]: https://store.steampowered.com/app/1067860/NewCity/
