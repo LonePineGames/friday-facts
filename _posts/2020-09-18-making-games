@@ -49,7 +49,7 @@ I was doing game design from a very young age without even realizing it. I made 
 
 Now I'm highly focused on making a city builder. To prove out the modding system, I directed the team to focus on making a mod for NewCity with a vaporwave theme. We're planning to release it officially next week. The feedback from playtesters has been extremely positive. Once the modding tools were in place, the game designer within me went to work and before I knew it, we had the beginnings of a new game.
 
-Apparently I made another game[1] recently without even realizing it: [5D Chess with Multiverse Time Travel]{:target="_blank"}. Yes that's a real game. My namesake, Conor Petersen, released the game this summer. (My name is also Conor.) I've been playing it a bit and it's a lot of fun, a great mind-bender.
+Apparently I made another game[^1] recently without even realizing it: [5D Chess with Multiverse Time Travel]{:target="_blank"}. Yes that's a real game. My namesake, Conor Petersen, released the game this summer. (My name is also Conor.) I've been playing it a bit and it's a lot of fun, a great mind-bender.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/48/48_vapor_04.png"
@@ -97,7 +97,7 @@ As always, we’re incredibly thankful for our great community across the web. W
 
 If you want to play the game and haven’t got it yet, head over to our [Steam page]{:target="_blank"}. We're also on [Reddit]{:target="_blank"} and [Twitter]{:target="_blank"}. Give us a follow if you haven’t, and we’ll keep you up to date on what’s new with NewCity!
 
-[1]: To be clear, this is a joke. 5D Chess with Multiverse Time Travel is not my game and I'm not claiming credit for it.
+[^1]: To be clear, this is a joke. 5D Chess with Multiverse Time Travel is not my game and I'm not claiming credit for it.
 [5D Chess with Multiverse Time Travel]: https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/
 [Discord]:  http://discord.gg/cz6t4J5
 [Steam page]: https://store.steampowered.com/app/1067860/NewCity/
