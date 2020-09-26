@@ -18,7 +18,7 @@ description: Hope you’re not tired of Vaporwave
 
 supersoup:
 
- I don’t know if you’ve checked out the Vaporwave modpack recently, but it’s shaping up to be something really stunning. And I can say that because I haven’t had much hand in it except for some backend code, SFX, and the song "Logging In" that went out with the patch last night. Hopefully my contributions meet the high bar set by with the incredible work Gainos and Lone Pine have been doing over there. 
+ I don’t know if you’ve checked out the Vaporwave modpack recently, but it’s shaping up to be something really stunning. And I can say that because I haven’t had much hand in it except for some backend code, SFX, and the song "Logging In" that went out with the patch last night. Hopefully my contributions meet the high bar set by the incredible work Gainos and Lone Pine have been doing over there. 
 
 {% include image.html class="caption-bottom"
   url="/assets/images/49/49_vapor_01.png"
@@ -41,7 +41,7 @@ To highlight one example, building underground is significantly cheaper now to r
   url="/assets/images/49/49_vapor_02.png"
 %}
 
-We also changed UI sound effects and added music. Implementing more music meant making the caching and playback of music aware of the difference between vanilla and mod music. So there’s a few backend changes to smooth out rough edges, but by and large the Vaporwave modpack is a product of the tools we’ve extended to you, the community. 
+We also changed UI sound effects and added music. Implementing more music meant making music caching and playback aware of the difference between vanilla and mod music. So there’s a few backend changes to smooth out rough edges, but by and large the Vaporwave modpack is a product of the tools we’ve extended to you, the community. 
 
 I sincerely hope it sparks a fire in your imagination and gets you dreaming about your own unique spin on the citybuilder foundation. Our modding platform will be standing by for you to work your magic. 
 
