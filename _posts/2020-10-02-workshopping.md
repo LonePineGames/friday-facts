@@ -5,7 +5,7 @@ date:   2020-10-02 00:00:00 -0700
 author: Lone Pine
 #categories: new-city friday-facts
 redirect_from:
-  - /blog/2020/10/02/workshopping.html
+  - /blog/2020/10/02/shipping-updates.html
 
 image: /assets/images/50/50_desert.png
 description: From the deserts to the seas
