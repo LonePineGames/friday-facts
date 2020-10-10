@@ -43,7 +43,7 @@ All well and good, but since we have all our assets organized into folders like 
 
 {% include image.html class="caption-bottom"
   url="/assets/images/51/51_bridge.png"
-  description="The bridge between your NewCity and the Workshop
+  description="The bridge between your NewCity and the Workshop"
 %}
 
 I came up with the idea of a staging area. When uploading a file, NewCity uses a new staging folder for the item(s) that are to be uploaded. It sends them off, and everyone's happy. But then we have these folders and files just lying around in the staging area. That's no good. So we need a way to clean them up, right? 
