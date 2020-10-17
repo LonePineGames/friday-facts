@@ -6,7 +6,7 @@ author: Lone Pine
 #categories: new-city friday-facts
 
 image: /assets/images/52/52_trees.png
-description: 
+description: A walk in the forest
 ---
 
 {% include image.html class="caption-bottom"
