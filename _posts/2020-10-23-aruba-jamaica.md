@@ -7,7 +7,7 @@ author: supersoup
 redirect_from:
   - /blog/2020/10/23/aruba-jamaica.html
 
-image: /assets/images/53/53_beachfront_thumbnail.png
+image: /assets/images/53/53_beachfront_main.png
 description: Ooh, I wanna take ya
 
 ---
