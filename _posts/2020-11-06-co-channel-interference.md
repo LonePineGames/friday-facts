@@ -59,85 +59,85 @@ supersoup:
 
 … 
 
-INFO - 19:52:47.380: 
-Signal detected, SNR @ 23dB
-Gathering information...
-
-INFO - 19:52:47.417: 
-Signal info -
-\[ Dual-band transmission \] \[ source UNK \]
-\[ Video Carrier, PWM, 15MHz \]
-\[ Audio Carrier, Modulated, 92-107MHz \]
-
-INFO - 19:52:47.424: 
-MITM in progress…
-Locking frequencies…
-\[ Video Carrier, PWM, 15Mhz \] lock not successful (unacceptable SNR), staging to retry...
-\[ Audio Carrier, Modulated, 92-107MHz \] lock successful!
-
-ERR - 19:52:47.429: 
-\[ Video Carrier, PWM, 15MHz \] signal interrupted! Dumping buffer…
+INFO - 19:52:47.380:   
+Signal detected, SNR @ 23dB  
+Gathering information...  
+  
+INFO - 19:52:47.417:  
+Signal info -  
+\[ Dual-band transmission \] \[ source UNK \]  
+\[ Video Carrier, PWM, 15MHz \]  
+\[ Audio Carrier, Modulated, 92-107MHz \]  
+  
+INFO - 19:52:47.424:  
+MITM in progress…  
+Locking frequencies…  
+\[ Video Carrier, PWM, 15Mhz \] lock not successful (unacceptable SNR), staging to retry...  
+\[ Audio Carrier, Modulated, 92-107MHz \] lock successful!  
+  
+ERR - 19:52:47.429:  
+\[ Video Carrier, PWM, 15MHz \] signal interrupted! Dumping buffer...    
 
 {% include image.html class="caption-bottom"
   url="/assets/images/55/55_corruption.png"
 %}
 
-INFO - 19:52:47.433: 
-Testing signal for encryption…
-\[ Audio Carrier, Modulated, 92-107MHz \] is unencrypted
+INFO - 19:52:47.433:  
+Testing signal for encryption...   
+\[ Audio Carrier, Modulated, 92-107MHz \] is unencrypted   
 
-INFO - 19:52:47.438: 
-Scanning for and extracting RDS…
--HEADER: CPRC-07 BROAD SECURITY-IRIDIUM-6
--META: Uptime 03:17:01.117, Flag(s) ALERT/CONTAINMENT
+INFO - 19:52:47.438:  
+Scanning for and extracting RDS...  
+-HEADER: CPRC-07 BROAD SECURITY-IRIDIUM-6  
+-META: Uptime 03:17:01.117, Flag(s) ALERT/CONTAINMENT  
+  
+INFO - 19:52:47.442:  
+Processing signal(s)...  
+\[ Audio Carrier, Modulated, 92-107MHz \] >> NEURAL_NET(SCAN_FOR: 30000ms)  
+Waiting on response from NEURAL_NET...  
 
-INFO - 19:52:47.442: 
-Processing signal(s)...
-\[ Audio Carrier, Modulated, 92-107MHz \] >> NEURAL_NET(SCAN_FOR: 30000ms)
-Waiting on response from NEURAL_NET…
+INFO - 19:53:17.445:  
+Response received from NEURAL_NET! Outputting transcript...  
+  
+\[BEGIN TRANSCRIPT\]  
 
-INFO - 19:53:17.445: 
-Response received from NEURAL_NET! Outputting transcript…
+UNK (01, male) - \[Unintelligible\] Approaching Outpost Kilo now, Echo\[ID?\].  
 
-\[BEGIN TRANSCRIPT\]
+Echo (02, female) - Be advised, Sierra-One\[ID?\], there are multiple contacts to the south showing on thermal.  
 
-UNK (01, male) - \[Unintelligible\] Approaching Outpost Kilo now, Echo\[ID?\]. 
+Sierra-One (01, male) - Copy. The outpost is quiet. Sierra-Three’s gone.  
 
-Echo (02, female) - Be advised, Sierra-One\[ID?\], there are multiple contacts to the south showing on thermal. 
+Echo? (02, female) - We lost his transponder somewhere in or around the outpost. He was not observed leaving the area.  
 
-Sierra-One (01, male) - Copy. The outpost is quiet. Sierra-Three’s gone. 
+Sierra-One (01, male) - He’s gone, Echo.  
 
-Echo? (02, female) - We lost his transponder somewhere in or around the outpost. He was not observed leaving the area.
+Echo (02, female) - \[Silence, 3.201\] Copy, Sierra-One.  
 
-Sierra-One (01, male) - He’s gone, Echo.
+Sierra-One (01, male) - I’m going to see what I can scavenge from \[Interruption, 02\]  
 
-Echo (02, female) - \[Silence, 3.201\] Copy, Sierra-One. 
+Echo (02, female) - Sierra-One, contacts closing on you fast from the south. Eyes up.  
 
-Sierra-One (01, male) - I’m going to see what I can scavenge from \[Interruption, 02\]
+Sierra-One (01, male) - I see ‘em.  
 
-Echo (02, female) - Sierra-One, contacts closing on you fast from the south. Eyes up. 
+UNK (??) - \[Gunfire - M4A1, 5.56mm\]  
 
-Sierra-One (01, male) - I see ‘em.
+UNK (??) - \[Animal cry? POSSIBLE MATCH: Tortoise - 76.77% \]  
 
-UNK (??) - \[Gunfire - M4A1, 5.56mm\]
+Sierra-One (01, male) - Where’s the chopper?  
 
-UNK (??) - \[Animal cry? POSSIBLE MATCH: Tortoise - 76.77% \]
+Echo (02, female) - En route, ETA five. Help is on the way Sierra-One. Just survive.  
 
-Sierra-One (01, male) - Where’s the chopper?
+Sierra-One (01, male) - Affirmative.  
 
-Echo (02, female) - En route, ETA five. Help is on the way Sierra-One. Just survive. 
+UNK (??) - \[Gunfire - M4A1, 5.56mm\]  
 
-Sierra-One (01, male) - Affirmative. 
+UNK (??) - \[Weapon reload - M4A1, 5.56mm\]  
 
-UNK (??) - \[Gunfire - M4A1, 5.56mm\]
+UNK (??) - \[Animal cry? POSSIBLE MATCH: Elephant - 80.13% \]  
 
-UNK (??) - \[Weapon reload - M4A1, 5.56mm\]
+Sierra-One (01, male) - Ah, \[EXPLETIVE REDACTED\].  
 
-UNK (??) - \[Animal cry? POSSIBLE MATCH: Elephant - 80.13% \]
-
-Sierra-One (01, male) - Ah, \[EXPLETIVE REDACTED\].
-
-\[END TRANSCRIPT\]
+\[END TRANSCRIPT\]  
 
 ---
 
