@@ -79,7 +79,7 @@ ERR - 19:52:47.429:
 \[ Video Carrier, PWM, 15MHz \] signal interrupted! Dumping buffer…
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/55/55_corrupted.png"
+  url="/assets/images/55/55_corruption.png"
 %}
 
 INFO - 19:52:47.433: 
