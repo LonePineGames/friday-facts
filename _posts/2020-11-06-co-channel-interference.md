@@ -8,7 +8,7 @@ redirect_from:
   - /blog/2020/11/06/co-channel-interference.html
 
 image: /assets/images/55/55_main.png
-description: Lone Pine Games Grows
+description: Multiple transmissions on this frequency
 
 ---
 
