@@ -29,13 +29,13 @@ This should encourage a more regional playstyle. For example, I started making m
 
 ---
 
-supersoup:
-
-…
-
-…
-
-INFO - 12:33:07.108:   
+supersoup:  
+  
+...  
+  
+...  
+  
+INFO - 12:33:07.108:  
 Signal detected, SNR @ 42.6dB  
 Gathering information...  
  
@@ -44,25 +44,25 @@ Signal info -
 \[ BAND:LTE-BAND-30, DUPLEX:FDD, UPLINK:2307MHz, DOWNLINK:2352MHz \] \[ source UNK \]  
  
 INFO - 12:33:07.113:  
-MITM in progress…  
-Locking frequencies…  
+MITM in progress...    
+Locking frequencies...    
 \[ Uplink:2307MHz \] lock successful!  
 \[ Downlink:2352MHz \] lock successful!  
  
 INFO - 12:33:07.118:  
-Enabling packet analysis, scanning…
-Detected \[PacketType:PlainText\], contents: 
-"Extant 2km from SITE-1463"
-Detected \[PacketType:FileHeader\]\[FileType:RAW-IMAGE\] transmission, extracting info…
-\[ENDIAN: LITTLE-ENDIAN, SIG: HEAPCCDR, OFFSET: 16\]
-Scanning for remaining packets to reconstruct…
+Enabling packet analysis, scanning...  
+Detected \[PacketType:PlainText\], contents:  
+"Extant 2km from SITE-1463"  
+Detected \[PacketType:FileHeader\]\[FileType:RAW-IMAGE\] transmission, extracting info...  
+\[ENDIAN: LITTLE-ENDIAN, SIG: HEAPCCDR, OFFSET: 16\]  
+Scanning for remaining packets to reconstruct...  
 
-INFO - 12:33:24.829:
-Input: 'str_search -r "extant" *.txt /home/heroesfall/CPRC-PUBLIC-TRANSCRIPTS/ &'
-Output: 1 match, in file \[/home/heroesfall/CPRC-PUBLIC-TRANSCRIPTS/jan20/cprc_hmanning_pressconf.txt\]
-"There's vast untapped potential in the extraordinary abilities of the entities we encounter, contain, and study. They carry genetic code the likes of which we've never seen before, holding the potential for surges in medical science beyond our wildest dreams. For breakthroughs in quantum physics and other abstruse fields of study. Given enough time and the right sources, we may even be able to make extant species out of those once resigned to extinction."
+INFO - 12:33:24.829:  
+Input: 'str_search -r "extant" *.txt /home/heroesfall/CPRC-PUBLIC-TRANSCRIPTS/ &'  
+Output: 1 match, in file \[/home/heroesfall/CPRC-PUBLIC-TRANSCRIPTS/jan20/cprc_hmanning_pressconf.txt\]  
+"There's vast untapped potential in the extraordinary abilities of the entities we encounter, contain, and study. They carry genetic code the likes of which we've never seen before, holding the potential for surges in medical science beyond our wildest dreams. For breakthroughs in quantum physics and other abstruse fields of study. Given enough time and the right sources, we may even be able to make extant species out of those once resigned to extinction."  
 
-INFO - 12:33:29.332: 
+INFO - 12:33:29.332:  
 \[FileType:RAW-IMAGE\] interception completed! 
 
 {% include image.html class="caption-bottom"
