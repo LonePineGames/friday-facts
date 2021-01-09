@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #60: Resolutions"
-date:   2021-01-02 00:00:00 -0700
+date:   2021-01-08 00:00:00 -0700
 author: Lone Pine, Swordless Mimetown
 #categories: new-city friday-facts
 
