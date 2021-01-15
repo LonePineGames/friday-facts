@@ -5,8 +5,8 @@ date:   2021-01-15 00:00:00 -0700
 author: Lone Pine, Gainos
 #categories: new-city friday-facts
 
-image: /assets/images/60/60_highway.png
-description: New Year, New Plans
+image: /assets/images/61/61_top_down.png
+description: Doing Big Things
 ---
 
 Gainos:
