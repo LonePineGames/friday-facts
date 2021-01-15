@@ -44,7 +44,7 @@ Broadly speaking, there are two types of citybuilders. In one type, the game sim
   url="/assets/images/61/61_top_down.png"
 %}
 
-Due to the limitations of 90s computers, all early citybuilders were macro-sims. SimCity 1-4 are macro-sims; Caesar, Pharaoh, and most modern 3D city builders are micro-sims. NewCity is a micro-sim with some macro aspects.
+Due to the limitations of 90s computers, all early citybuilders were macro-sims. SimCity 1-4 are macro-sims; Caesar III, Pharaoh, and most modern 3D city builders are micro-sims. NewCity is a micro-sim with some macro aspects.
 
 For example, take unemployment. From a micro view, unemployment is the percentage of *workers* (somehow defined) who don't have an employer. From a macro view, unemployment is a consequence of the macro-economy being unable to "employ" all it's "economic factors", meaning people, land and machinery.
 
