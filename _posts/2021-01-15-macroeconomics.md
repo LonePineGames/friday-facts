@@ -86,8 +86,3 @@ If you want to play the game and haven't got it yet, head over to our [Steam pag
 [Reddit]: https://www.reddit.com/r/NewCity
 [Twitter]: https://twitter.com/lone_pine_games
 
-
-
-
-
-
