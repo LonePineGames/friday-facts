@@ -4,7 +4,7 @@ title:  "Friday Facts #64: We're Jamming!"
 date:   2021-02-12 00:00:00 -0700
 Author: 
 #categories: new-cities friday-facts
-image: /assets/images/64/64_hero.png
+image: /assets/images/64/64_taxes.png
 description: ...and I hope you like jamming too!
 ---
 
