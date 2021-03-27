@@ -28,8 +28,8 @@ The transition from New Cities to NewCity was vital to our marketing operations.
 When I joined the team at the tail end of 2020 there was some catch-up to do. Like a lot of great passion projects, the game had grown into a phenomenal piece of media without the restrictions of corporate bureaucracy. But as Warhol said, making money is art. And when a game as great as NewCity needs more exposure, you gotta get creative.
 
 That is to say, a slight text change and a green gradient aren't exactly the pinnacle of creativity. But we're not done yet; there's a lot more where all this came from. Keep an eye out on our YouTube page...
----
 
+---
 Questions? Comments? Feedback on the game? Sound off on our [Discord]{:target="_blank"}.
 
 As always, we're incredibly thankful for our great community across the web. We love seeing the hard work and attention to detail you pour into your cities, and it inspires us every day to keep building. Thank you again for your support.
