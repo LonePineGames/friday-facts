@@ -5,7 +5,7 @@ date:   2021-03-26 00:00:00 -0700
 Author: Swordless Mimetown
 #categories: new-cities friday-facts
 
-image: /assets/images/68/68_college.jpg
+image: /assets/images/68/68_NewLogo.png
 description: What a tangled web we weave
 ---
 
@@ -22,8 +22,7 @@ Comparably, the name Lone Pine Games is great from a branding perspective. Put a
 The transition from New Cities to NewCity was vital to our marketing operations. Search Engine Optimization, or SEO, can make or break a brand. Nobody went out of businesses being the first result on Google. And while NewCity is still a fairly competitive term (there seem to be dozens of NewCity businesses), we have the strongest presence for our market. 
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/68/68_newLogo.png"
-  description:  We built our branding the way you fall asleep: slowly, then all at once. -John Green, probably
+  url="/assets/images/68/68_college.png"
 %}
 
 When I joined the team at the tail end of 2020 there was some catch-up to do. Like a lot of great passion projects, the game had grown into a phenomenal piece of media without the restrictions of corporate bureaucracy. But as Warhol said, making money is art. And when a game as great as NewCity needs more exposure, you gotta get creative.
