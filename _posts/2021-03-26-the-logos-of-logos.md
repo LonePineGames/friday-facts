@@ -9,11 +9,7 @@ image: /assets/images/68_college.jpg
 description: What a tangled web we weave
 ---
 
-{% include image.html class="caption-bottom"
-  url="/assets/images/67/67_hero.png"
-%}
-
-Swordless Mimetowna:
+Swordless Mimetown:
 
 The NewCity logo has been in flux almost since the beginning. Back in the Before Times™ of January 2020 the game was called New Cities. The evolution to NewCity, and from there to our recently released Steam page redesign, has not been as much of a trajectory, and more like a series of hops/skips/jumps. 
 
