@@ -9,7 +9,7 @@ image: /assets/images/68_transit.png
 description: What a tangled web we weave
 ---
 
-Swordless Mimetown:
+SwordlessMimetown:
 
 The NewCity logo has been in flux almost since the beginning. Back in the Before Times™ of January 2020 the game was called New Cities. The evolution to NewCity, and from there to our recently released Steam page redesign, has not been as much of a trajectory, and more like a series of hops/skips/jumps. 
 
