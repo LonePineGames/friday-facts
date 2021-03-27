@@ -5,10 +5,13 @@ date:   2021-03-26 00:00:00 -0700
 Author: Swordless Mimetown
 #categories: new-cities friday-facts
 
-image: /assets/images/68_college.png
-description: What a tangled web we weave.
-
+image: /assets/images/68_college.jpg
+description: What a tangled web we weave
 ---
+
+{% include image.html class="caption-bottom"
+  url="/assets/images/67/67_hero.png"
+%}
 
 Swordless Mimetown:
 
@@ -24,13 +27,12 @@ The transition from New Cities to NewCity was vital to our marketing operations.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/68_newLogo.png"
-  description:  "We built our branding the way you fall asleep: slowly, then all at once." -John Green, probably
+  description:  We built our branding the way you fall asleep: slowly, then all at once. -John Green, probably
 %}
 
 When I joined the team at the tail end of 2020 there was some catch-up to do. Like a lot of great passion projects, the game had grown into a phenomenal piece of media without the restrictions of corporate bureaucracy. But as Warhol said, making money is art. And when a game as great as NewCity needs more exposure, you gotta get creative.
 
 That is to say, a slight text change and a green gradient aren't exactly the pinnacle of creativity. But we're not done yet! There's a lot more where all this came from.
-
 ---
 
 Questions? Comments? Feedback on the game? Sound off on our [Discord]{:target="_blank"}.
