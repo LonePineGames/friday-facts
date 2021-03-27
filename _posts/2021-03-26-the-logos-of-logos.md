@@ -5,7 +5,7 @@ date:   2021-03-26 00:00:00 -0700
 Author: Swordless Mimetown
 #categories: new-cities friday-facts
 
-image: /assets/images/68_college.jpg
+image: /assets/images/68/68_college.jpg
 description: What a tangled web we weave
 ---
 
@@ -14,7 +14,7 @@ Swordless Mimetown:
 The NewCity logo has been in flux almost since the beginning. Back in the Before Times™ of January 2020 the game was called New Cities. The evolution to NewCity, and from there to our recently released Steam page redesign, has not been as much of a trajectory, and more like a series of hops/skips/jumps. 
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/68_transit.png"
+  url="/assets/images/68/68_transit.png"
 %}
 
 Comparably, the name Lone Pine Games is great from a branding perspective. Put a single tree around some text and take an early lunch. But video games have a naming problem; you want to let players know what genre the game is while also showing off what makes it unique. City simulation games will almost always contain some kind of variant on those two aforementioned words. We went with 'City'.
@@ -22,7 +22,7 @@ Comparably, the name Lone Pine Games is great from a branding perspective. Put a
 The transition from New Cities to NewCity was vital to our marketing operations. Search Engine Optimization, or SEO, can make or break a brand. Nobody went out of businesses being the first result on Google. And while NewCity is still a fairly competitive term (there seem to be dozens of NewCity businesses), we have the strongest presence for our market. 
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/68_newLogo.png"
+  url="/assets/images/68/68_newLogo.png"
   description:  We built our branding the way you fall asleep: slowly, then all at once. -John Green, probably
 %}
 
