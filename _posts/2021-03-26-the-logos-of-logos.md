@@ -14,7 +14,7 @@ SwordlessMimetown:
 The NewCity logo has been in flux almost since the beginning. Back in the Before Times™ of January 2020 the game was called New Cities. The evolution to NewCity, and from there to our recently released Steam page redesign, has not been as much of a trajectory, and more like a series of hops/skips/jumps. 
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/68_new_logo_two.png"
+  url="/assets/images/68_an_entirely_different_thing.png"
 %}
 
 Comparably, the name Lone Pine Games is great from a branding perspective. Put a single tree around some text and take an early lunch. But video games have a naming problem; you want to let players know what genre the game is while also showing off what makes it unique. City simulation games will almost always contain some kind of variant on those two aforementioned words. We went with 'City'.
