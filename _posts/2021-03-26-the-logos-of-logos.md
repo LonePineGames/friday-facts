@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Friday Facts #68: The Logos of Our Logo"
+title:  "Friday Facts #68: The Logos of Logos"
 date:   2021-03-26 00:00:00 -0700
 Author: Swordless Mimetown
 #categories: new-cities friday-facts
