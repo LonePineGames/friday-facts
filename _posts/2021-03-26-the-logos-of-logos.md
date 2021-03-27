@@ -6,7 +6,7 @@ Author: Swordless Mimetown
 #categories: new-cities friday-facts
 
 image: /assets/images/68_transit.png
-description: What a tangled web we weave
+description: What a tangled web we weave.
 ---
 
 SwordlessMimetown:
