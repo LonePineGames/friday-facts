@@ -433,9 +433,9 @@ figure.youtube {
 }
 
 .sidebar-panel {
-  margin: 2vw;
+  margin: 1vw 2vw;
   width: 20vw;
-  padding: 1em;
+  padding: 1vw;
   z-index: 2;
 
   font-size: 1.2vw;
@@ -512,6 +512,24 @@ ul.mavica {
   margin: 40px;
 }
 
+.pacific-banner {
+  width: 22vw;
+  padding: 0;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+  }
+
+  img {
+    flex: 0 1 auto;
+    align-self: auto;
+    padding: 0;
+    width: auto;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .post-content p, .post-content ol, .post-content ul {
     font-size: 1.2vw;
@@ -530,10 +548,14 @@ ul.mavica {
   }
 
   .sidebar-panel {
-    margin: 2vw 2vw;
+    margin: 1vw 1vw;
     width: unset;
     padding: 1vw;
     font-size: 3vw;
+
+    &.pacific-banner {
+      padding: 0;
+    }
 
     &.indiegogo-sidebar li {
       text-align: center;
