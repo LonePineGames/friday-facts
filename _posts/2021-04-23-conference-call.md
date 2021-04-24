@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #72: Conference Call"
-date:   2021-03-19 00:00:00 -0700
+date:   2021-04-23 00:00:00 -0700
 Author: supersoup
 #categories: new-cities friday-facts
 
