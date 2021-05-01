@@ -17,21 +17,21 @@ I had a lot of fun making the [trailer for the Tourist Update](https://www.youtu
 
 I found a map with a large, heart shaped island and soon that became Pacific City. I spent a couple weekends filling in the island and surroundings, fixing some visual bugs, and recording some footage. Then it was a matter of making the ad look retro.
 
-I did some research via the most logical route, [hour long vaporwave music mixes with VHS rips of 90s TV commercials as visuals.](https://www.youtube.com/watch?v=QPAHVS-e1NM) The game is definitely influenced by vaporwave, but we try not to hit you over the head with it (outside of the Vapor mod). 
+I did some research via the most logical route, hour long vaporwave music mixes with VHS rips of 90s TV commercials as visuals. The game is definitely influenced by vaporwave, but we try not to hit you over the head with it (outside of the Vapor mod).
 
 {% include youtube.html video="QPAHVS-e1NM" %}
 
-I noticed that this era of TV used a lot more editing and composition, I was surprised at how sophisticated the title animations were. Many of these animations were probably made on an optical, analog machine, or hand drawn -- no computers! Of course, I used Blender to make the titles. (Thanks to Gainos for some blender tips.)
+I noticed that this era of TV used a lot more editing and composition. I was surprised at how sophisticated the title animations were. Many of these animations were probably made on an optical, analog machine, or hand drawn -- no computers! Of course, I used Blender to make the titles. (Thanks to Gainos for some blender tips.)
 
-My open source video editor is pretty limited, and I’m not even going to namedrop it because I’m embarrassed to be using it. There was no “make this look like it was recorded on a VCR and then degraded for 20 years” button, but I found a combination of effects that altered the color, image quality and edges of video, together with a 4:3 aspect ratio, to make it look more 480i.
+My open source video editor is pretty limited, and I’m not even going to [namedrop](https://www.youtube.com/watch?v=dQw4w9WgXcQ) it because I’m embarrassed to be using it. There was no “make this look like it was recorded on a VCR and then degraded for 20 years” button, but I found a combination of effects that altered the color, image quality and edges of video, together with a 4:3 aspect ratio, to make it look more 480i.
 
 {% include image.html
   url="/assets/images/pacific/load_screen.png" 
   %}
 
-I also added video glitches and modified the soundtrack to add distortion. In retrospect, I wish I had used more lofi effects and less screen-tearing glitches, but I still think I did a good job overall. The video isn't actually NTSC 480i quality -- we experiemented with that, and it's actually worse than you remember. So it's not 100% era-accurate. But if you were lucky enough to have lived through the VHS era, it should be a fun throwback for you.
+I also added video glitches and modified the soundtrack to add distortion. In retrospect, I wish I had used more lofi effects and less screen-tearing glitches, but I still think I did a good job overall. The video isn't actually NTSC 480i quality -- we experiemented with that, and it's actually worse than you remember. So the video is not 100% era-accurate. But if you were lucky enough to have lived through the VHS era, it should be a fun throwback for you.
 
-After premiering the trailer, I realized how much longing there is to go back to a simpler time when you could just take a trip to some warm sunny place. The top two comments are “I'd like to go there immediately” and “fam im goin there asap.” Unfortunately, trains to Pacific City only operate in 1993. But this crazy year of 2021 will be over eventually. You’ll be seeing sunny beaches again soon. And until then, you can virtually visit the city of your dreams on your PC.
+After premiering the trailer, I realized how much longing there is to go back to a simpler time when you could just take a trip to some warm sunny place. The top two comments are “I'd like to go there immediately” and “fam im goin there asap.” Unfortunately, trains to Pacific City only operate in 1993. But this crazy year of 2021 will be over eventually. You’ll be seeing sunny beaches again soon. And until then, you can [virtually visit](https://newcities-videos.s3.amazonaws.com/Pacific+City+1969.city) the city of your dreams on your PC.
 
 (Assuming you can find a graphics card.)
 
