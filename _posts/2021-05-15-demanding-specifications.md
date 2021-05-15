@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Friday Facts #75: Demanding Specifications"
-date:   2021-05-14 00:00:00 -0700
+date:   2021-05-15 00:00:00 -0700
 Author: supersoup
 #categories: new-cities friday-facts
 
