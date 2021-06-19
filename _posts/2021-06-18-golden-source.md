@@ -44,7 +44,7 @@ So if you want a glimpse into the future of NewCity — and any other games I co
 Thanks, John, for teaching me how to build a console. I look forward to many more years of following in your footsteps.
 
 ---
-At Lone Pine Games we are always looking for feedback to improve our game! The best way to provide it is through our community Discord, which can be found here: http://discord.gg/cz6t4J5
+At Lone Pine Games we are always looking for feedback to improve our game! The best way to provide it is through our community Discord, which can be found here: [http://discord.gg/cz6t4J5](http://discord.gg/cz6t4J5)
 
 We are thankful to have such a lively and dedicated group of Mayors participating in discussions regarding new features, city planning strategy, development news, and just about anything else.
 
