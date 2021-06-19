@@ -55,7 +55,6 @@ Steam Reviews are always appreciated as well!
 [GoldSrc]: https://en.wikipedia.org/wiki/GoldSrc
 [ModDB]: https://www.moddb.com/
 [John Carmack]: https://www.youtube.com/watch?v=SQKSzRbfxQI
-[Discord]:  http://discord.gg/cz6t4J5
 [Steam page]: https://store.steampowered.com/app/1067860/NewCity/
 [Reddit]: https://www.reddit.com/r/NewCity
 [Twitter]: https://twitter.com/lone_pine_games
