@@ -9,6 +9,8 @@ image: /assets/images/81/81_poster.png
 description: 
 ---
 
+*The #NewCitySummer Spectacular is still accepting entries until Monday, July 5th! [See last week's post for more info.](/2021/06/25/summer-spectacular.html)*
+
 {% include image.html class="caption-below"
   url="/assets/images/81/81_poster.png"
 %}
