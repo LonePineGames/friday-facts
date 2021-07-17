@@ -42,8 +42,8 @@ First up, the honorable mentions:
 %}
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/83/83_okku01_h.png"
-  description="Okku"
+  url="/assets/images/83/83_okuu01_h.png"
+  description="Okuu"
 %}
 
 {% include image.html class="caption-bottom"
@@ -126,7 +126,6 @@ If you want to play the game and haven't got it yet, head over to our [Steam pag
 
 Steam Reviews are always appreciated as well!
 
-[GLFW]: https://www.glfw.org/
 [Discord]:  http://discord.gg/cz6t4J5
 [Steam page]: https://store.steampowered.com/app/1067860/NewCity/
 [Reddit]: https://www.reddit.com/r/NewCity
