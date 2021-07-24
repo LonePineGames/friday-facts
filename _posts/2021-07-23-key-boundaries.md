@@ -17,7 +17,7 @@ Swordless Mimetown:
 
 Our update next week will be the first test of our new keybinding features. It's something that has been a hurdle for our team due to the nature of our custom engine. However, thanks to the stellar work of supersoup, we will have initial support for changing the hotkeys next week!
 
-Rebinding hotkeys and other control customizations have been "en vogue" for years, but the demand has always existed. Accessibility has been, and continues to be, a dealbreaker for many people simply wanting to enjoy a video game. We want as many people as possible to be able to enjoy NewCity.1
+Rebinding hotkeys and other control customizations have been "en vogue" for years, but the demand has always existed. Accessibility has been, and continues to be, a dealbreaker for many people simply wanting to enjoy a video game. We want as many people as possible to be able to enjoy NewCity.
 
 The latest leap in accessibility in games came from last year's The Last of Us Part II. The level of customization exceeds any that came before it, with modifications available for both the difficulty and controls. In an action game, difficulty can be considered part of the core experience. Overcoming the challenge presented by controlling the player character is where the entertainment lies. 
 
