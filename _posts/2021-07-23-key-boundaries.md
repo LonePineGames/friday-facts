@@ -1,17 +1,16 @@
 ---
 layout: post
 title:  "Friday Facts #84: Key Boundaries"
-date:   2021-07-16 00:00:00 -0700
-Author: supersoup
+date:   2021-07-23 00:00:00 -0700
+Author: Swordless Mimetown
 #categories: new-cities friday-facts
 
-image: /assets/images/83/83_hero.png
+image: /assets/images/84/84_hero.png
 description: Next week will have a new feature that's personally important to me.
 ---
 
 {% include image.html class="caption-bottom"
-  url="/assets/images/83/83_hero.png"
-  description="Thanks for celebrating with us!"
+  url="/assets/images/84/84_hero.png"
 %}
 
 Swordless Mimetown:
@@ -19,6 +18,10 @@ Swordless Mimetown:
 Our update next week will be the first test of our new keybinding features. It's something that has been a hurdle for our team due to the nature of our custom engine. However, thanks to the stellar work of supersoup, we will have initial support for changing the hotkeys next week!
 
 Rebinding hotkeys and other control customizations have been "en vogue" for years, but the demand has always existed. Accessibility has been, and continues to be, a dealbreaker for many people simply wanting to enjoy a video game. We want as many people as possible to be able to enjoy NewCity.
+
+{% include image.html class="caption-bottom"
+  url="/assets/images/84/84_city.png"
+%}
 
 The latest leap in accessibility in games came from last year's The Last of Us Part II. The level of customization exceeds any that came before it, with modifications available for both the difficulty and controls. In an action game, difficulty can be considered part of the core experience. Overcoming the challenge presented by controlling the player character is where the entertainment lies. 
 
