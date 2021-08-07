@@ -15,9 +15,9 @@ description: There's more than one way to make a game.
 
 Swordless Mimetown:
 
-Game design is an iceberg. Picture an image of a tipped glacier burgeoning above the water, with a gigantic mass underneath the surface. In a video game that is more reflex-focused, when a player jumps onto a moving platform, the unseen systems must react in a way that feels like natural movement. The player only has to tilt a stick and press a, but there is simulated gravity, acceleration, and movement control which must always be working behind the scenes, and in real-time. 
+Game design is an iceberg. Picture an image of a tipped glacier burgeoning above the water, with a gigantic mass underneath the surface. In a video game that is more reflex-focused, when a player jumps onto a moving platform, the unseen systems must react in a way that feels like natural movement. The player only has to tilt a stick and press A, but there is simulated gravity, acceleration, and movement control which must always be working behind the scenes, and in real-time. 
 
-When someone plays a game, the systems are rarely as forward-facing as they are in NewCity. In simulation-heavy games like ours, FTL, or RimWorld reflexes are wholly unnecessary(unless you refuse to use the pause function!). The player is constantly struggling with choices that provide obscured systemic overlap; the unintended consequences are engaging in a way that's at odds with something like a platformer. If a road is torn down, how will that affect the value of the surrounding property? These consequences exist to destroy the player, and the mitigation is thrilling.
+When someone plays a game, the systems are rarely as forward-facing as they are in NewCity. In simulation-heavy games like ours, FTL, or RimWorld reflexes are wholly unnecessary (unless you refuse to use the pause function!). The player is constantly struggling with choices that provide obscured systemic overlap; the unintended consequences are engaging in a way that's at odds with something like a platformer. If a road is torn down, how will that affect the value of the surrounding property? These consequences exist to destroy the player, and the mitigation is thrilling.
 
 {% include image.html class="caption-bottom"
   url="/assets/images/85/85_prosperity.png"
@@ -56,7 +56,7 @@ We're in this to the release out of Early Access. As with many, many games gone 
 
 I reiterate: we aren't done with *NewCity* yet. We have a bit to go before version One dot Zero. And, as with our update schedule, exact dates are subject to flex around as we work hard to offer our best. We'll do our best to communicate those changes to you and the reasons why — perhaps better than we have in the past. 
 
-Thank you for sticking with us on this journey. And as I said in the post above, thank you for your patience. There may yet be a few surprises in store for all the mayors of NewCities. 
+Thank you for sticking with us on this journey. And like I said in the post above, thank you for your patience. There may yet be a few surprises in store for all the mayors of NewCities. 
 
 As always, we look forward to seeing what you build. 
 
