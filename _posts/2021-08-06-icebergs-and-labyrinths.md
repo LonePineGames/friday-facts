@@ -34,6 +34,7 @@ So when we here at Lone Pine Games want to add something new like an improved st
 supersoup:
 
 Not only is game design an iceberg, the act of forging a playable experience from raw code and assets is as a labyrinth. It's far easier to get lost than it is to find the exit. Occasionally, it helps to step back — or return to the summit outside the entrance — where you can view the whole of it at once. Take a breath, recognize the mistakes made along the way, and reenter with renewed purpose. 
+
 There has been some concern about our current update schedule. Allow me to reassure you: *NewCity* isn't abandonware, nor are we done working on it. Far from it. That said, I completely understand the concern. Early Access is a crucible in which independent game developers are tested. Many have been found wanting. And in so doing, many have promptly abandoned their efforts once the challenges outweighed any potential benefits in their mind.
 
 {% include image.html class="caption-bottom"
