@@ -16,11 +16,11 @@ Lone Pine:
 
 When I first started to market NewCity, I committed to selling it the same way games were sold in the 90s: a single software product, purchased for life, and if we were to sell additional content, it would be a significant amount of content sold as an “Expansion Pack” (as opposed to DLC). We even considered the slogan “No DLC, always $19.93”. However, once we started receiving money from Steam and the company had a regular budget, I instantly understood why the industry has changed.
 
-90% (at least) of initial game sales happen when someone hears about the game, such as through social media. When someone popular streams the game, or a reddit post goes viral, large numbers of people are made aware of NewCity and some of them purchase it. I wanted to include a screenshot of our sales graph, but Steam would not allow that, so please take my word for it: our sales graph has a number of very big spikes, with a lower rate of sales in between.
+90% (at least) of initial game sales happen when someone first hears about the game, such as through social media. When someone popular streams the game, or a reddit post goes viral, large numbers of people are made aware of NewCity and some of them purchase it. I wanted to include a screenshot of our sales graph, but Steam would not allow that, so please take my word for it: our sales graph has a number of very big spikes, with a lower rate of sales in between.
 
 The fact of the matter is, dear mayor, this is no way to run a business. How is a business owner to know how many employees to hire, or how many resources to commit to the future of a game, without a reliable, predictable stream of income?
 
-{% include image.html class="caption-bottom" url="/assets/images/90/stadium.png" %}
+{% include image.html class="caption-bottom" url="/assets/images/90/witch.png" description="We’ll be releasing a new Halloween modpack this week. (For free -- we don't do microtransactions here.)" %}
 
 The games industry at large has found a way to make the income stream more regular: microtransactions. I’ve heard advice for business owners to “see how many times you can get the customer to pay for the same product.” The ideal case is a subscription MMO: the customer pays every month, over and over again, the same amount every month.
 
@@ -30,7 +30,7 @@ Marketers know that different people are willing to pay different amounts for th
 
 This also explains the rise of free-to-play games. The biggest problem for anyone in the entertainment industry is acquiring mindshare. We appreciate anyone who is willing to play the game, even if they are unable to contribute financially -- as long as they bring attention to the game on social media. This is also why piracy is not such a big deal.
 
-{% include image.html class="caption-bottom" url="/assets/images/90/witch.png" description="We’ll be releasing a new Halloween modpack this week. (For free -- we don't do microtransactions here.)" %}
+{% include image.html class="caption-bottom" url="/assets/images/90/stadium.png" %}
 
 Many gamers, myself included, pine away for the glory days of the 90s when games came on CDs. The developer was obligated to actually finish the game, and debug it, before the CDs could be pressed, since downloadable patches were not a thing back then. What you bought was a complete software package, and you owned it for as long as you could keep the CD unscratched (assuming you kept the CD key written on a post-it with the disc.)
 
