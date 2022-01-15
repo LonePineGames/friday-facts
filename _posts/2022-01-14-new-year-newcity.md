@@ -16,7 +16,9 @@ supersoup:
 
 Oh, hi! It's good to see you again. Took me a while to squeeze around the elephant in the room. But we're back! 
 
-I'm supersoup. You may remember me from such films as "Community Management: A Gateway to the Games Industry" and "Sidestepping into Development: A Tale of Two Skillsets." I'm still developing, but now I'm doing this community management thing again too! Let's talk about NewCity, shall we?
+I'm supersoup. You may remember me from such films as "Community Management: A Gateway to the Games Industry" and "Sidestepping into Development: A Tale of Two Skillsets." I'm still developing, but now I'm doing this community management thing again too! 
+
+Let's talk about NewCity, shall we?
 
 {% include image.html class="caption-bottom" url="/assets/images/91/91_halloween.png" description="Seems like Halloween was just yesterday" %}
 
@@ -28,7 +30,7 @@ First in the queue is the long awaited Art Update. Lone Pine and Gainos have bee
 
 {% include image.html class="caption-bottom" url="/assets/images/91/91_forest.png" %}
 
-But as you and I both well know, there's a lot left to be done before we can put a bow on v1.0. There's an internal list of outstanding issues, comments, and feature requests which we just had a meeting on today. Allow me to list a few of the highlights here:
+But as you and I both well know, there's a lot left to be done before we can put a bow on v1.0. We have an internal list of outstanding issues, comments, and feature requests which was the topic of a meeting just today, in fact. Allow me to list a few of the highlights here:
 
 - Art Update (but I repeat myself)
 - Steam Workshop Overhaul, including improving/finishing the upload/update loop for Workshop items
