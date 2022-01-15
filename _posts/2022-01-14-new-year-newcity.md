@@ -22,7 +22,7 @@ Let's talk about NewCity, shall we?
 
 {% include image.html class="caption-bottom" url="/assets/images/91/91_halloween.png" description="Seems like Halloween was just yesterday" %}
 
-We had a deadline set for ourselves way back during the IndieGoGo campaign: version 1.0 by the end of 2021. We didn't make it. Yet the game lives on. We simply underestimated the project, as newly fledged indie devs are wont to do. As Galahad reminded me, an old saying goes "Ask a programmer to estimate the time for a project, then multiply that by three." 
+We had a deadline set for ourselves way back during the IndieGoGo campaign: version 1.0 by the end of 2021. We didn't make it. Yet the game lives on. We simply underestimated the project, as newly fledged indie devs are wont to do. Like Galahad reminded me, an old saying goes "Ask a programmer to estimate the time for a project, then multiply that by three." 
 
 Fortunately you won't have to do that. The road from here to NewCity version 1.0 is measured in months, not years. But there's still a bit of dusty trail ahead of us. So we're all set here after the holidays to get to moseying. 
 
@@ -46,7 +46,7 @@ The road goes ever on and on. And development on NewCity is primed to proceed ap
 
 Since I'm back doing this community management thing again, please feel free to ping me (@supersoup) over on [Discord]{:target="_blank"} with your questions, comments, or concerns. I look forward to hearing from you!
 
-With sincere well wishes to you and yours for a splendid 2022,
+With sincere well wishes to you and yours for a splendid 2022,    
 supersoup 
 
 ---
