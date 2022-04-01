@@ -14,6 +14,8 @@ In playtesting NewCity, we have discovered that much of the game is taken up by 
 
 {% include image.html class="caption-bottom" url="/assets/images/94/no-building.png" %}
 
+_Continued on Page 2_
+
 ---
 
 At Lone Pine Games we are always looking for feedback to improve our game! The best way to provide it is through the [NewCity Discord].
